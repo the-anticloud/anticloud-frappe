@@ -1,0 +1,16 @@
+{
+ "framework": "24_MITRE_ATTCK",
+ "title": "MITRE ATT&CK v15 (DQI/PQI/IQI)",
+ "project": "FRAPPE",
+ "basis": [
+  {
+   "check": "15_mitre_attack",
+   "status": "PASS",
+   "observed": "{\"authority\": \"MITRE\", \"control_ids\": [\"T1078\", \"T1552\", \"T1"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "9b08b2417266bb1c7d7d6b815ebfc476a45bdcd423b5a3972dcb071fbdcd4123",
+ "register_sha3": "47246954f72567aeeca8e3d4b0f3437a43814a2085db4bf0b61c56a8a5f3a0c5"
+}

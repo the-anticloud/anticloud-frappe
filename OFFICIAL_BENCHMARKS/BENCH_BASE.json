@@ -1,0 +1,3762 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "FRAPPE",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ENGINEERING_CONSTRUCTION\\FRAPPE\\UPSTREAM_CLONE",
+    "git": {
+      "head": "ada0e11941afb860fa865131f939d80143353d63",
+      "url": "https://github.com/frappe/frappe",
+      "branch": "develop",
+      "committed_at": "2026-10-02T11:26:57+05:30"
+    }
+  },
+  "metrics": {
+    "files_total": 4191,
+    "source_files_scanned": 2301,
+    "lines_of_code": 447044,
+    "languages": {
+      ".py": 1707,
+      ".js": 852,
+      ".json": 433,
+      ".vue": 239,
+      ".html": 223,
+      ".ts": 192,
+      ".md": 145,
+      ".scss": 117,
+      ".css": 57,
+      ".svg": 48,
+      ".po": 40,
+      ".png": 35,
+      ".woff2": 20,
+      ".txt": 17,
+      "(none)": 13
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 191,
+    "unique": 167,
+    "by_ecosystem": {
+      "npm": 114,
+      "pypi": 77
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@atlaskit/pragmatic-drag-and-drop",
+        "version": "^2.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@editorjs/editorjs",
+        "version": "^2.28.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/core",
+        "version": "^6.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/daygrid",
+        "version": "^6.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/interaction",
+        "version": "^6.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/list",
+        "version": "^6.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/timegrid",
+        "version": "^6.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@headlessui/vue",
+        "version": "^1.7.16",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@popperjs/core",
+        "version": "^2.11.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@redis/client",
+        "version": "^1.5.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@sentry/browser",
+        "version": "^7.119.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vue-flow/background",
+        "version": "^1.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vue-flow/core",
+        "version": "^1.16.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vueuse/core",
+        "version": "^9.5.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ace-builds",
+        "version": "^1.4.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "air-datepicker",
+        "version": "git+https://github.com/frappe/air-datepicker",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "awesomplete",
+        "version": "^1.1.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bootstrap",
+        "version": "4.6.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chalk",
+        "version": "^2.3.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cliui",
+        "version": "^7.0.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cookie",
+        "version": "^0.7.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cropperjs",
+        "version": "^1.5.12",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "driver.js",
+        "version": "^0.9.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "editorjs-undo",
+        "version": "0.1.6",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "esbuild",
+        "version": "^0.28.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "esbuild-plugin-vue3",
+        "version": "^0.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fast-deep-equal",
+        "version": "^2.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fast-glob",
+        "version": "^3.2.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-charts",
+        "version": "2.0.0-rc27",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-datatable",
+        "version": "1.21.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-gantt",
+        "version": "^1.2.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-quill-image-resize",
+        "version": "^3.0.9",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "highlight.js",
+        "version": "^10.4.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "html5-qrcode",
+        "version": "^2.3.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jquery",
+        "version": "3.7.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "js-sha256",
+        "version": "^0.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jsbarcode",
+        "version": "^3.11.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "launch-editor",
+        "version": "^2.14.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "less",
+        "version": "^4.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "localforage",
+        "version": "^1.10.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "md5",
+        "version": "^2.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "moment",
+        "version": "^2.29.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "moment-timezone",
+        "version": "^0.5.35",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "photoswipe",
+        "version": "^5.4.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "pinia",
+        "version": "^2.0.23",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "plyr",
+        "version": "^3.7.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "popper.js",
+        "version": "^1.16.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "postcss",
+        "version": "8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "quill",
+        "version": "2.0.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "quill-magic-url",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "qz-tray",
+        "version": "^2.0.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rtlcss",
+        "version": "^4.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sass",
+        "version": "^1.63.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sass-embedded",
+        "version": "^1.100.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "showdown",
+        "version": "^2.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "socket.io",
+        "version": "^4.7.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "socket.io-client",
+        "version": "^4.7.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sortablejs",
+        "version": "^1.15.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue",
+        "version": "^3.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vuedraggable",
+        "version": "^4.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "yargs",
+        "version": "^17.5.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lucide-static",
+        "version": "1.47.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bufferutil",
+        "version": "^4.0.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "utf-8-validate",
+        "version": "^6.0.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Babel",
+        "version": "~=2.16.0",
+        "source_file": "pyproject.toml",
+        "raw": "Babel~=2.16.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Click",
+        "version": "~=8.4.1",
+        "source_file": "pyproject.toml",
+        "raw": "Click~=8.4.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "filelock",
+        "version": "~=3.29.3",
+        "source_file": "pyproject.toml",
+        "raw": "filelock~=3.29.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "filetype",
+        "version": "~=1.2.0",
+        "source_file": "pyproject.toml",
+        "raw": "filetype~=1.2.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "GitPython",
+        "version": "~=3.1.45",
+        "source_file": "pyproject.toml",
+        "raw": "GitPython~=3.1.45"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Jinja2",
+        "version": "~=3.1.6",
+        "source_file": "pyproject.toml",
+        "raw": "Jinja2~=3.1.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Pillow",
+        "version": "~=12.3.0",
+        "source_file": "pyproject.toml",
+        "raw": "Pillow~=12.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "PyJWT",
+        "version": "~=2.15.0",
+        "source_file": "pyproject.toml",
+        "raw": "PyJWT~=2.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "duckdb",
+        "version": "~=1.4.3",
+        "source_file": "pyproject.toml",
+        "raw": "duckdb~=1.4.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyarrow",
+        "version": "~=25.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "pyarrow~=25.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "PyMySQL",
+        "version": "==1.1.2",
+        "source_file": "pyproject.toml",
+        "raw": "PyMySQL==1.1.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pypdf",
+        "version": "==6.16.1",
+        "source_file": "pyproject.toml",
+        "raw": "pypdf==6.16.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "PyPika",
+        "version": "@",
+        "source_file": "pyproject.toml",
+        "raw": "PyPika @"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "mysqlclient",
+        "version": "==2.2.8",
+        "source_file": "pyproject.toml",
+        "raw": "mysqlclient==2.2.8"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "PyQRCode",
+        "version": "~=1.2.1",
+        "source_file": "pyproject.toml",
+        "raw": "PyQRCode~=1.2.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "PyYAML",
+        "version": "~=6.0.3",
+        "source_file": "pyproject.toml",
+        "raw": "PyYAML~=6.0.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "RestrictedPython",
+        "version": "~=8.5",
+        "source_file": "pyproject.toml",
+        "raw": "RestrictedPython~=8.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Werkzeug",
+        "version": "==3.1.6",
+        "source_file": "pyproject.toml",
+        "raw": "Werkzeug==3.1.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "beautifulsoup4",
+        "version": "~=4.15.0",
+        "source_file": "pyproject.toml",
+        "raw": "beautifulsoup4~=4.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "bleach-allowlist",
+        "version": "~=1.0.3",
+        "source_file": "pyproject.toml",
+        "raw": "bleach-allowlist~=1.0.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "chardet",
+        "version": "~=7.4.3",
+        "source_file": "pyproject.toml",
+        "raw": "chardet~=7.4.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "croniter",
+        "version": "~=6.2.2",
+        "source_file": "pyproject.toml",
+        "raw": "croniter~=6.2.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "cryptography",
+        "version": "~=50.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "cryptography~=50.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "cssutils",
+        "version": "~=2.15.0",
+        "source_file": "pyproject.toml",
+        "raw": "cssutils~=2.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "distro",
+        "version": "~=1.9.0",
+        "source_file": "pyproject.toml",
+        "raw": "distro~=1.9.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "email-reply-parser",
+        "version": "~=0.5.12",
+        "source_file": "pyproject.toml",
+        "raw": "email-reply-parser~=0.5.12"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Faker",
+        "version": "~=40.23.0",
+        "source_file": "pyproject.toml",
+        "raw": "Faker~=40.23.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "gunicorn",
+        "version": "@",
+        "source_file": "pyproject.toml",
+        "raw": "gunicorn @"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "html5lib",
+        "version": "~=1.1",
+        "source_file": "pyproject.toml",
+        "raw": "html5lib~=1.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ipython",
+        "version": "~=9.14.0",
+        "source_file": "pyproject.toml",
+        "raw": "ipython~=9.14.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ldap3",
+        "version": "~=2.9.1",
+        "source_file": "pyproject.toml",
+        "raw": "ldap3~=2.9.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "markdown2",
+        "version": "~=2.5.4",
+        "source_file": "pyproject.toml",
+        "raw": "markdown2~=2.5.4"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "MarkupSafe",
+        "version": "~=3.0.3",
+        "source_file": "pyproject.toml",
+        "raw": "MarkupSafe~=3.0.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "nh3",
+        "version": "~=0.3.2",
+        "source_file": "pyproject.toml",
+        "raw": "nh3~=0.3.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "num2words",
+        "version": "~=0.5.14",
+        "source_file": "pyproject.toml",
+        "raw": "num2words~=0.5.14"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "oauthlib",
+        "version": "~=4.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "oauthlib~=4.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "openpyxl",
+        "version": "~=3.1.5",
+        "source_file": "pyproject.toml",
+        "raw": "openpyxl~=3.1.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "xlsxwriter",
+        "version": "~=3.2.9",
+        "source_file": "pyproject.toml",
+        "raw": "xlsxwriter~=3.2.9"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "orjson",
+        "version": "~=3.11.5",
+        "source_file": "pyproject.toml",
+        "raw": "orjson~=3.11.5"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "passlib",
+        "version": "~=1.7.4",
+        "source_file": "pyproject.toml",
+        "raw": "passlib~=1.7.4"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pdfkit",
+        "version": "~=1.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "pdfkit~=1.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "phonenumbers",
+        "version": "~=9.0.23",
+        "source_file": "pyproject.toml",
+        "raw": "phonenumbers~=9.0.23"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "premailer",
+        "version": "~=3.10.0",
+        "source_file": "pyproject.toml",
+        "raw": "premailer~=3.10.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "psutil",
+        "version": "~=7.2.2",
+        "source_file": "pyproject.toml",
+        "raw": "psutil~=7.2.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "psycopg2-binary",
+        "version": "~=2.9.11",
+        "source_file": "pyproject.toml",
+        "raw": "psycopg2-binary~=2.9.11"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyOpenSSL",
+        "version": "~=26.4.0",
+        "source_file": "pyproject.toml",
+        "raw": "pyOpenSSL~=26.4.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pydantic",
+        "version": "~=2.13.4",
+        "source_file": "pyproject.toml",
+        "raw": "pydantic~=2.13.4"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyotp",
+        "version": "~=2.9.0",
+        "source_file": "pyproject.toml",
+        "raw": "pyotp~=2.9.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "python-dateutil",
+        "version": "~=2.9.0.post0",
+        "source_file": "pyproject.toml",
+        "raw": "python-dateutil~=2.9.0.post0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pytz",
+        "version": "==2026.2",
+        "source_file": "pyproject.toml",
+        "raw": "pytz==2026.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rauth",
+        "version": "~=0.7.3",
+        "source_file": "pyproject.toml",
+        "raw": "rauth~=0.7.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "redis",
+        "version": "~=7.1.0",
+        "source_file": "pyproject.toml",
+        "raw": "redis~=7.1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "hiredis",
+        "version": "~=3.3.0",
+        "source_file": "pyproject.toml",
+        "raw": "hiredis~=3.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "requests-oauthlib",
+        "version": "~=2.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "requests-oauthlib~=2.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "requests",
+        "version": "~=2.34.2",
+        "source_file": "pyproject.toml",
+        "raw": "requests~=2.34.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rq",
+        "version": "==2.6.1",
+        "source_file": "pyproject.toml",
+        "raw": "rq==2.6.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rsa",
+        "version": "~=4.9.1",
+        "source_file": "pyproject.toml",
+        "raw": "rsa~=4.9.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "semantic-version",
+        "version": "~=2.10.0",
+        "source_file": "pyproject.toml",
+        "raw": "semantic-version~=2.10.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sentry-sdk",
+        "version": "~=2.60.0",
+        "source_file": "pyproject.toml",
+        "raw": "sentry-sdk~=2.60.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sqlglot",
+        "version": "~=30.16.0",
+        "source_file": "pyproject.toml",
+        "raw": "sqlglot~=30.16.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sqlparse",
+        "version": "~=0.6.0",
+        "source_file": "pyproject.toml",
+        "raw": "sqlparse~=0.6.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "sql_metadata",
+        "version": "~=3.0.1",
+        "source_file": "pyproject.toml",
+        "raw": "sql_metadata~=3.0.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "tenacity",
+        "version": "~=9.1.2",
+        "source_file": "pyproject.toml",
+        "raw": "tenacity~=9.1.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "terminaltables",
+        "version": "~=3.1.10",
+        "source_file": "pyproject.toml",
+        "raw": "terminaltables~=3.1.10"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "traceback-with-variables",
+        "version": "~=2.2.1",
+        "source_file": "pyproject.toml",
+        "raw": "traceback-with-variables~=2.2.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "typst",
+        "version": "~=0.15.0",
+        "source_file": "pyproject.toml",
+        "raw": "typst~=0.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "typing_extensions",
+        "version": ">=4.15.0",
+        "source_file": "pyproject.toml",
+        "raw": "typing_extensions>=4.15.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "xlrd",
+        "version": "~=2.0.2",
+        "source_file": "pyproject.toml",
+        "raw": "xlrd~=2.0.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "zxcvbn",
+        "version": "~=4.5.0",
+        "source_file": "pyproject.toml",
+        "raw": "zxcvbn~=4.5.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "markdownify",
+        "version": "~=1.2.2",
+        "source_file": "pyproject.toml",
+        "raw": "markdownify~=1.2.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "google-api-python-client",
+        "version": "~=2.197.0",
+        "source_file": "pyproject.toml",
+        "raw": "google-api-python-client~=2.197.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "google-auth-oauthlib",
+        "version": "~=1.4.0",
+        "source_file": "pyproject.toml",
+        "raw": "google-auth-oauthlib~=1.4.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "google-auth",
+        "version": "~=2.53.0",
+        "source_file": "pyproject.toml",
+        "raw": "google-auth~=2.53.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "vobject",
+        "version": "~=0.9.9",
+        "source_file": "pyproject.toml",
+        "raw": "vobject~=0.9.9"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pycountry",
+        "version": "~=26.2.16",
+        "source_file": "pyproject.toml",
+        "raw": "pycountry~=26.2.16"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "websockets",
+        "version": "~=15.0.1",
+        "source_file": "pyproject.toml",
+        "raw": "websockets~=15.0.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "s",
+        "version": "socket.io-client",
+        "source_file": "pyproject.toml",
+        "raw": "s socket.io-client"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "cropperjs",
+        "version": "^2.1.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dompurify",
+        "version": "^3.4.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "leaflet",
+        "version": "^1.9.4",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "leaflet-draw",
+        "version": "^1.0.4",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "leaflet.locatecontrol",
+        "version": "^0.89.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "marked",
+        "version": "^15.0.12",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vuedraggable",
+        "version": "^4.1.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-css",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-html",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-javascript",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-json",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-markdown",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-python",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-sass",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-sql",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-xml",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-yaml",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lint",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/state",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/view",
+        "version": "^6.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitejs/plugin-vue",
+        "version": ">=4",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vueuse/core",
+        "version": ">=10.4.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "autoprefixer",
+        "version": "^10.4.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-ui",
+        "version": ">=1.0.0-rc.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tailwindcss",
+        "version": "^3.4.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": ">=5",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": ">=4",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue",
+        "version": ">=3.3.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue-router",
+        "version": "^4.1.5",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@framework/ui",
+        "version": "link:../../..",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-css",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-html",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-javascript",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-json",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-markdown",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-python",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-sass",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-sql",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-xml",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-yaml",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lint",
+        "version": "^6.0.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitejs/plugin-vue",
+        "version": "^6.0.8",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vueuse/core",
+        "version": "^11.3.0",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "autoprefixer",
+        "version": "^10.5.4",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "frappe-ui",
+        "version": "1.0.0-rc.1",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tailwindcss",
+        "version": "^3.4.19",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.9.3",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^8.1.5",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue",
+        "version": "^3.5.41",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue-router",
+        "version": "^4.6.4",
+        "source_file": "ui/vite/island/toolchain/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 526,
+    "files_with_findings": 446,
+    "severity": {
+      "high": 155,
+      "medium": 22,
+      "low": 349
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_frappe_client.py",
+            "line": 23,
+            "cwe": "CWE-295",
+            "snippet": "server = FrappeClient(get_url(), \"Administrator\", self.PASSWORD, verify=False)"
+          }
+        ]
+      },
+      "A02-CryptographicFailures": {
+        "count": 9,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "frappe/utils/error.py",
+            "line": 126,
+            "cwe": "CWE-327",
+            "snippet": "return hashlib.sha1(\"\\n\".join(parts).encode(), usedforsecurity=False).hexdigest()"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/utils/file_manager.py",
+            "line": 392,
+            "cwe": "CWE-327",
+            "snippet": "digest = hashlib.md5(content, usedforsecurity=False).hexdigest()"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/utils/identicon.py",
+            "line": 33,
+            "cwe": "CWE-327",
+            "snippet": "return int(md5(str_.encode(\"utf-8\"), usedforsecurity=False).hexdigest(), 16)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/public/js/frappe/utils/common.js",
+            "line": 171,
+            "cwe": "CWE-327",
+            "snippet": "var idx = cint((parseInt(md5(txt).substr(4, 2), 16) + 1) / 5.33);"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/modules/import_file.py",
+            "line": 21,
+            "cwe": "CWE-327",
+            "snippet": "hash_md5 = hashlib.md5(usedforsecurity=False)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/desk/doctype/sidebar/sidebar.py",
+            "line": 1036,
+            "cwe": "CWE-327",
+            "snippet": "return hashlib.sha1(identity.encode()).hexdigest()[:10]"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/database/postgres/schema.py",
+            "line": 53,
+            "cwe": "CWE-327",
+            "snippet": "base += \"_\" + hashlib.md5(variant.encode()).hexdigest()[:10]"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/core/doctype/scheduled_job_type/scheduled_job_type.py",
+            "line": 124,
+            "cwe": "CWE-327",
+            "snippet": "maintenance_offset = int(hashlib.sha1(frappe.local.site.encode()).hexdigest(), 16) % 60"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/core/doctype/file/utils.py",
+            "line": 224,
+            "cwe": "CWE-327",
+            "snippet": "return hashlib.md5(content, usedforsecurity=False).hexdigest()  # nosec"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 143,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "ui/src/components/FormLayout/dependsOn.ts",
+            "line": 18,
+            "cwe": "CWE-95",
+            "snippet": "* desk scopes it (`frappe.utils.eval(expr, { doc, parent })` in"
+          },
+          {
+            "severity": "high",
+            "file": "ui/src/components/ActivityTimeline/utils.ts",
+            "line": 62,
+            "cwe": "CWE-95",
+            "snippet": "const m = /^\\{(\\d+)\\}$/.exec(part);"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/bundler.py",
+            "line": 193,
+            "cwe": "CWE-78",
+            "snippet": "shell=True,"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/workflow/page/workflow_builder/workflow_builder.js",
+            "line": 21,
+            "cwe": "CWE-78",
+            "snippet": "let $parent = $(wrapper).find(\".layout-main-section\");"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/website/js/website.js",
+            "line": 309,
+            "cwe": "CWE-78",
+            "snippet": "var key = $(this).attr(\"data-key\");"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/website/doctype/web_form/web_form.js",
+            "line": 694,
+            "cwe": "CWE-78",
+            "snippet": "$(checkboxes).prop(\"checked\", true).trigger(\"change\");"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/utils/defaults.py",
+            "line": 45,
+            "cwe": "CWE-95",
+            "snippet": "# data_type = eval(f\"frappe.types.DF.{column_type.replace(' ', '')}\")"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/utils/password.py",
+            "line": 237,
+            "cwe": "CWE-89",
+            "snippet": "(_(\"Failed to decrypt key {0}\").format(key) + \"<br><br>\" if key else \"\")\r\n\t\t\t+ _(\"Encryption key is invalid! Please check site_config.json\")"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/utils/redis_wrapper.py",
+            "line": 126,
+            "cwe": "CWE-502",
+            "snippet": "val = pickle.loads(val)"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/utils/safe_exec.py",
+            "line": 151,
+            "cwe": "CWE-95",
+            "snippet": "return eval(_compile_code(code, filename=\"<safe_eval>\", mode=\"eval\"), eval_globals, eval_locals)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/utils/synchronization.py",
+            "line": 46,
+            "cwe": "CWE-89",
+            "snippet": "_(\"Failed to aquire lock: {}. Lock may be held by another process.\").format(lock_name)\r\n\t\t\t+ \"<br>\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_base_document.py",
+            "line": 210,
+            "cwe": "CWE-502",
+            "snippet": "unpickled_instance = pickle.loads(pickled_data)"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_db.py",
+            "line": 875,
+            "cwe": "CWE-89",
+            "snippet": "\"SELECT IIF(name = %s, %(yes)s, %(no)s) FROM tabUser\","
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_document.py",
+            "line": 983,
+            "cwe": "CWE-502",
+            "snippet": "unpickled = pickle.loads(pickle.dumps(guest))"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_query_report.py",
+            "line": 381,
+            "cwe": "CWE-89",
+            "snippet": "f\"SELECT {', '.join(f'`{column}`' for column in REPORT_COLUMNS)} FROM `tab{REF_DOCTYPE}` LIMIT 10\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/microbenchmarks/utils.py",
+            "line": 26,
+            "cwe": "CWE-78",
+            "snippet": "shell=True,"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/classes/context_managers.py",
+            "line": 121,
+            "cwe": "CWE-95",
+            "snippet": "\"\"\"Temporarily: enable safe exec (server scripts).\"\"\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/onboarding_tours/onboarding_tours.js",
+            "line": 131,
+            "cwe": "CWE-78",
+            "snippet": "$(element).on(\"click\", () => {"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/lib/fingerprintjs.js",
+            "line": 8,
+            "cwe": "CWE-95",
+            "snippet": "var e=function(){return e=Object.assign||function(e){for(var n,t=1,r=arguments.length;t<r;t++)for(var o in n=arguments[t])Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o]);ret"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/lib/leaflet/leaflet.js",
+            "line": 5,
+            "cwe": "CWE-78",
+            "snippet": "!function(t,i){\"object\"==typeof exports&&\"undefined\"!=typeof module?i(exports):\"function\"==typeof define&&define.amd?define([\"exports\"],i):i(t.L={})}(this,function(t){\"use strict\";"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/desk.js",
+            "line": 15,
+            "cwe": "CWE-78",
+            "snippet": "$(document).ready(function () {"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/dom.js",
+            "line": 19,
+            "cwe": "CWE-78",
+            "snippet": "var $ele = $(ele);"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/request.js",
+            "line": 709,
+            "cwe": "CWE-78",
+            "snippet": "$(document).ajaxSend(function () {"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/widgets/chart_widget.js",
+            "line": 974,
+            "cwe": "CWE-95",
+            "snippet": "frappe.dom.eval(config);"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/widgets/number_card_widget.js",
+            "line": 262,
+            "cwe": "CWE-78",
+            "snippet": "($(formatted_number).text() || formatted_number) + (symbol ? \" \" + symbol : \"\");"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 280,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "node_utils.js",
+            "line": 63,
+            "cwe": "CWE-",
+            "snippet": "// TODO: revise after https://github.com/redis/node-redis/issues/2530"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/socket.ts",
+            "line": 48,
+            "cwe": "CWE-",
+            "snippet": "export function subscribeToDoc("
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/tests/socket.test.ts",
+            "line": 24,
+            "cwe": "CWE-",
+            "snippet": "describe(\"subscribeToDoc\", () => {"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/composables/tests/useDocPermissions.test.ts",
+            "line": 74,
+            "cwe": "CWE-",
+            "snippet": "useDocPermissions(\"ToDo\");"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/ActivityTimeline/liveUpdates.ts",
+            "line": 2,
+            "cwe": "CWE-",
+            "snippet": "import { getSocketInstance, subscribeToDoc } from \"../../socket\";"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/ActivityTimeline/pendingRows.ts",
+            "line": 18,
+            "cwe": "CWE-",
+            "snippet": "const toDocumentId = (doctype: string, docname: string) =>"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/ActivityTimeline/utils.ts",
+            "line": 80,
+            "cwe": "CWE-",
+            "snippet": "// `assignee_from_assignment` (todo.py templates); null when the assignee is the actor."
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/ActivityTimeline/tests/liveUpdates.test.ts",
+            "line": 12,
+            "cwe": "CWE-",
+            "snippet": "subscribeToDoc: () => () => {},"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/hooks.py",
+            "line": 82,
+            "cwe": "CWE-",
+            "snippet": "# TODO: This should not be hardcoded and a configurable option in future."
+          },
+          {
+            "severity": "low",
+            "file": "frappe/installer.py",
+            "line": 1169,
+            "cwe": "CWE-",
+            "snippet": "TODO: Add postgres support"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/parallel_test_runner.py",
+            "line": 24,
+            "cwe": "CWE-",
+            "snippet": "# XXX: command tests are significantly overweight, need a better heuristic than test count"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/translate.py",
+            "line": 609,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Find better alternative"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/__init__.py",
+            "line": 234,
+            "cwe": "CWE-",
+            "snippet": "# TODO: make session a dataclass instead of undtyped _dict"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/workflow/doctype/workflow/test_workflow.py",
+            "line": 30,
+            "cwe": "CWE-",
+            "snippet": "self.workflow = create_todo_workflow()"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/page_renderers/template_page.py",
+            "line": 165,
+            "cwe": "CWE-",
+            "snippet": "# TODO: self.context.children = self.run_pymodule_method('get_children')"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/web_form/test_web_form.py",
+            "line": 1323,
+            "cwe": "CWE-",
+            "snippet": "[\"DocType\", \"name\", \"in\", [\"Event\", \"ToDo\"]],"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/portal_settings/test_portal_settings.py",
+            "line": 88,
+            "cwe": "CWE-",
+            "snippet": "{\"title\": \"Kept\", \"route\": \"/kept\", \"reference_doctype\": \"ToDo\"},"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/personal_data_deletion_request/test_personal_data_deletion_request.py",
+            "line": 32,
+            "cwe": "CWE-",
+            "snippet": "todo = frappe.get_doc({\"doctype\": \"ToDo\", \"description\": \"owned by a deleted user\"}).insert()"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/discussion_topic/test_discussion_topic.py",
+            "line": 17,
+            "cwe": "CWE-",
+            "snippet": "submit_discussion(\"User\", \"Administrator\", \"Hacked\", \"Title\", reply_name=reply_name)"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/background_jobs.py",
+            "line": 457,
+            "cwe": "CWE-",
+            "snippet": "# TODO: switch to multiprocessing.Process() after further investigating of fork -> forkserver"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/boilerplate.py",
+            "line": 571,
+            "cwe": "CWE-",
+            "snippet": "# route: [\"List\", \"ToDo\"], \"/desk/docs/some/page\", or \"https://example.com\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/change_log.py",
+            "line": 309,
+            "cwe": "CWE-",
+            "snippet": "# XXX: this is not 100% correct, but works for frappe"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/data.py",
+            "line": 477,
+            "cwe": "CWE-",
+            "snippet": "# TODO: first arg"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/doctor.py",
+            "line": 136,
+            "cwe": "CWE-",
+            "snippet": "# TODO improve this"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/error.py",
+            "line": 27,
+            "cwe": "CWE-",
+            "snippet": "This is a hack but ensures that LDAP is not imported unless it's required. This is tested in"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "frappe/utils/boilerplate.py",
+            "line": 328,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/tests/test_frappe_client.py",
+            "line": 23,
+            "cwe": "CWE-1188",
+            "snippet": "server = FrappeClient(get_url(), \"Administrator\", self.PASSWORD, verify=False)"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/integrations/oauth2.py",
+            "line": 556,
+            "cwe": "CWE-942",
+            "snippet": "_set_allowed_cors()"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/integrations/frappe_providers/cloud_settings.py",
+            "line": 212,
+            "cwe": "CWE-1188",
+            "snippet": "\"domains\": [_domain_row(client.site, primary, is_default=True)]"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/commands/site.py",
+            "line": 70,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/commands/utils.py",
+            "line": 466,
+            "cwe": "CWE-1188",
+            "snippet": "@click.option(\"--mute-emails\", default=True, is_flag=True, help=\"Mute emails during import\")"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 14,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "frappe/utils/test_print_format_generator.py",
+            "line": 265,
+            "cwe": "CWE-798",
+            "snippet": "generator.render_pdf(password=\"s3cret\")"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_auth.py",
+            "line": 43,
+            "cwe": "CWE-798",
+            "snippet": "cls.test_user_password = \"pwd_012\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_oauth20.py",
+            "line": 416,
+            "cwe": "CWE-798",
+            "snippet": "other_client.client_secret = \"other_test_client_secret\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_password.py",
+            "line": 18,
+            "cwe": "CWE-798",
+            "snippet": "new_password = \"test-password\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_pdf.py",
+            "line": 84,
+            "cwe": "CWE-798",
+            "snippet": "password = \"qwe\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/tests/test_utils.py",
+            "line": 1738,
+            "cwe": "CWE-798",
+            "snippet": "password = \"424242\"  # noqa: F841"
+          },
+          {
+            "severity": "high",
+            "file": "frappe/integrations/doctype/social_login_key/test_social_login_key.py",
+            "line": 405,
+            "cwe": "CWE-798",
+            "snippet": "social_login_key.client_secret = \"keoererk988ekkhf8w9e8ewrjhhkjer9889\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/integrations/doctype/ldap_settings/test_ldap_settings.py",
+            "line": 99,
+            "cwe": "CWE-798",
+            "snippet": "cls.base_password = \"my_password\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/integrations/doctype/google_settings/test_google_settings.py",
+            "line": 15,
+            "cwe": "CWE-798",
+            "snippet": "settings.api_key = \"test_api_key\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/integrations/doctype/connected_app/test_connected_app.py",
+            "line": 78,
+            "cwe": "CWE-798",
+            "snippet": "self.user_password = \"Eastern_43A1W\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/email/test_smtp.py",
+            "line": 69,
+            "cwe": "CWE-798",
+            "snippet": "password=\"password\","
+          },
+          {
+            "severity": "high",
+            "file": "frappe/email/doctype/email_account/test_email_account.py",
+            "line": 197,
+            "cwe": "CWE-798",
+            "snippet": "email_account.password = \"smtp-password\""
+          },
+          {
+            "severity": "high",
+            "file": "frappe/core/doctype/user/test_user.py",
+            "line": 267,
+            "cwe": "CWE-798",
+            "snippet": "user.new_password = \"password\""
+          },
+          {
+            "severity": "high",
+            "file": "cypress/integration/file_uploader.js",
+            "line": 58,
+            "cwe": "CWE-798",
+            "snippet": "const test_password = \"test_password\";"
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 55,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "cypress.config.js",
+            "line": 53,
+            "cwe": "CWE-319",
+            "snippet": "baseUrl: \"http://test_site_ui:8000\","
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/FileUpload/useUploader.ts",
+            "line": 356,
+            "cwe": "CWE-319",
+            "snippet": "const { protocol } = new URL(url, \"http://x\");"
+          },
+          {
+            "severity": "low",
+            "file": "ui/src/components/ActivityTimeline/icons.ts",
+            "line": 22,
+            "cwe": "CWE-319",
+            "snippet": "xmlns: \"http://www.w3.org/2000/svg\","
+          },
+          {
+            "severity": "low",
+            "file": "realtime/utils.js",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "return new URL(url.indexOf(\"://\") > -1 ? url : `http://${url}`).hostname;"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/oauth.py",
+            "line": 578,
+            "cwe": "CWE-319",
+            "snippet": "hash, as described in http://openid.net/specs/openid-connect-core-1_0.html#CodeIDToken"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/js/website.js",
+            "line": 383,
+            "cwe": "CWE-319",
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" style=\"width: 0.8em; height: 0.8em;\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/data.py",
+            "line": 1688,
+            "cwe": "CWE-319",
+            "snippet": "Only http://, https:// and /-rooted URLs are processed; anything else is"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/print_format.py",
+            "line": 427,
+            "cwe": "CWE-319",
+            "snippet": "\"proxy\": \"http://0.0.0.0:0\","
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/__init__.py",
+            "line": 574,
+            "cwe": "CWE-319",
+            "snippet": "return f\"http://{site}:{conf.webserver_port}\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/chromium/process.py",
+            "line": 358,
+            "cwe": "CWE-319",
+            "snippet": "url = f\"http://127.0.0.1:{port}/json/version\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_api.py",
+            "line": 688,
+            "cwe": "CWE-319",
+            "snippet": "\"/desk/user\": \"http://localhost/desk/user\","
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_cloud_settings.py",
+            "line": 180,
+            "cwe": "CWE-319",
+            "snippet": "return_value=Response({\"url\": \"http://central.localhost:8001\"}),"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_cors.py",
+            "line": 19,
+            "cwe": "CWE-319",
+            "snippet": "def make_request_and_test(self, origin=\"http://example.com\", absent=False):"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_email.py",
+            "line": 415,
+            "cwe": "CWE-319",
+            "snippet": "SMTP4DEV_WEB = \"http://localhost:3000\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_oauth20.py",
+            "line": 83,
+            "cwe": "CWE-319",
+            "snippet": "cls.redirect_uri = \"http://localhost\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_pdf.py",
+            "line": 35,
+            "cwe": "CWE-319",
+            "snippet": "<a href=\"http://test.com\">Test link 1</a>"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_realtime_py.py",
+            "line": 142,
+            "cwe": "CWE-319",
+            "snippet": "origin: str | None = \"http://s1\","
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_safe_exec.py",
+            "line": 203,
+            "cwe": "CWE-319",
+            "snippet": "self.send_header(\"Location\", f\"http://127.0.0.1:{test.port}/internal\")"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_search.py",
+            "line": 822,
+            "cwe": "CWE-319",
+            "snippet": "\"route\": [\"http://docs.local\"],"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_sqlite_search.py",
+            "line": 671,
+            "cwe": "CWE-319",
+            "snippet": "\"content\": \"<p>This is <strong>bold</strong> text with <a href='http://example.com'>links</a> and <br> line breaks.</p>\","
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_utils.py",
+            "line": 470,
+            "cwe": "CWE-319",
+            "snippet": "<a href=\"http://test.com\">Test link 1</a>"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/realtime/util.py",
+            "line": 45,
+            "cwe": "CWE-319",
+            "snippet": "base = f\"http://{base}\""
+          },
+          {
+            "severity": "low",
+            "file": "frappe/public/js/print_format_builder/utils.js",
+            "line": 444,
+            "cwe": "CWE-319",
+            "snippet": "// Splits on the first \":\" per declaration so values like url(http://\u2026) survive."
+          },
+          {
+            "severity": "low",
+            "file": "frappe/public/js/lib/fingerprintjs.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license."
+          },
+          {
+            "severity": "low",
+            "file": "frappe/public/js/lib/leaflet_draw/leaflet.draw.js",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://leafletjs.com"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 18,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "ui/island/mount.js",
+            "line": 202,
+            "cwe": "CWE-918",
+            "snippet": "const sheet = fetch(url)"
+          },
+          {
+            "severity": "medium",
+            "file": "realtime/middlewares/authenticate.js",
+            "line": 63,
+            "cwe": "CWE-918",
+            "snippet": "return fetch(get_url(socket, path), {"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/__init__.py",
+            "line": 1266,
+            "cwe": "CWE-601",
+            "snippet": "def redirect(url):"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/www/desk.py",
+            "line": 54,
+            "cwe": "CWE-601",
+            "snippet": "frappe.redirect(f\"/login?{urlencode({'redirect-to': frappe.request.path})}\")"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/www/login.py",
+            "line": 27,
+            "cwe": "CWE-601",
+            "snippet": "redirect_to = sanitize_redirect(redirect_to)"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/path_resolver.py",
+            "line": 52,
+            "cwe": "CWE-601",
+            "snippet": "resolve_redirect(self.path, request.query_string)"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/web_page/web_page.py",
+            "line": 193,
+            "cwe": "CWE-601",
+            "snippet": "def check_for_redirect(self, context):"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/website/doctype/web_form/web_form.py",
+            "line": 529,
+            "cwe": "CWE-601",
+            "snippet": "frappe.redirect(path + get_web_form_request_query())"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/utils/response.py",
+            "line": 273,
+            "cwe": "CWE-601",
+            "snippet": "def redirect():"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_website.py",
+            "line": 160,
+            "cwe": "CWE-601",
+            "snippet": "def test_redirect(self):"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/templates/includes/login/login.js",
+            "line": 45,
+            "cwe": "CWE-601",
+            "snippet": "args.redirect_to = frappe.utils.sanitise_redirect(frappe.utils.get_url_arg(\"redirect-to\"));"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/public/js/frappe/form/sidebar/attachments.js",
+            "line": 328,
+            "cwe": "CWE-918",
+            "snippet": "let response = await fetch(file_url);"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/integrations/doctype/connected_app/connected_app.py",
+            "line": 101,
+            "cwe": "CWE-601",
+            "snippet": "success_uri = sanitize_redirect(success_uri) if getattr(frappe.local, \"request\", None) else None"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/core/doctype/user_invitation/test_user_invitation.py",
+            "line": 195,
+            "cwe": "CWE-601",
+            "snippet": "def test_accept_invitation_api_pass_redirect(self):"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/core/doctype/user/test_user.py",
+            "line": 553,
+            "cwe": "CWE-601",
+            "snippet": "frappe.cache.hget(\"redirect_after_login\", random_user), sanitize_redirect(\"/welcome\")"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/core/doctype/user/user.py",
+            "line": 1246,
+            "cwe": "CWE-601",
+            "snippet": "frappe.cache.hset(\"redirect_after_login\", user.name, sanitize_redirect(redirect_to))"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/automation_engine/tests/test_actions.py",
+            "line": 287,
+            "cwe": "CWE-601",
+            "snippet": "def is_redirect(self):"
+          },
+          {
+            "severity": "medium",
+            "file": "cypress/integration/island.js",
+            "line": 51,
+            "cwe": "CWE-918",
+            "snippet": "return fetch(url)"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 27,
+    "files_with_findings": 27,
+    "severity": {
+      "high": 1,
+      "medium": 21,
+      "low": 5
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 11,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "ui/src/components/ActivityTimeline/utils.ts",
+            "line": 55,
+            "cwe": "CWE-1336",
+            "snippet": "function matchFormatTemplate("
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/website/doctype/web_template/test_web_template.py",
+            "line": 11,
+            "cwe": "CWE-1336",
+            "snippet": "class TestWebTemplate(IntegrationTestCase):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/website/doctype/web_template/web_template.py",
+            "line": 14,
+            "cwe": "CWE-1336",
+            "snippet": "class WebTemplate(Document):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/printing/doctype/print_format_field_template/print_format_field_template.py",
+            "line": 9,
+            "cwe": "CWE-1336",
+            "snippet": "class PrintFormatFieldTemplate(Document):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/printing/doctype/print_format_field_template/test_print_format_field_template.py",
+            "line": 8,
+            "cwe": "CWE-1336",
+            "snippet": "class TestPrintFormatFieldTemplate(IntegrationTestCase):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/email/doctype/email_template/email_template.py",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "class EmailTemplate(Document):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/email/doctype/email_template/test_email_template.py",
+            "line": 9,
+            "cwe": "CWE-1336",
+            "snippet": "class TestEmailTemplate(IntegrationTestCase):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/desk/doctype/document_template/document_template.py",
+            "line": 13,
+            "cwe": "CWE-1336",
+            "snippet": "class DocumentTemplate(Document):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/desk/doctype/document_template/test_document_template.py",
+            "line": 91,
+            "cwe": "CWE-1336",
+            "snippet": "class TestDocumentTemplate(IntegrationTestCase):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/contacts/doctype/address_template/address_template.py",
+            "line": 10,
+            "cwe": "CWE-1336",
+            "snippet": "class AddressTemplate(Document):"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/contacts/doctype/address_template/test_address_template.py",
+            "line": 9,
+            "cwe": "CWE-1336",
+            "snippet": "class TestAddressTemplate(IntegrationTestCase):"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 10,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "frappe/app.py",
+            "line": 343,
+            "cwe": "CWE-20",
+            "snippet": "args = orjson.loads(request_data)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/website/doctype/personal_data_download_request/test_personal_data_download_request.py",
+            "line": 24,
+            "cwe": "CWE-20",
+            "snippet": "user_data = json.loads(get_user_data(\"test_privacy@example.com\"))"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/utils/change_log.py",
+            "line": 26,
+            "cwe": "CWE-20",
+            "snippet": "json.loads(frappe.db.get_value(\"User\", user, \"last_known_versions\") or \"{}\")"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/tests/ui_test_helpers.py",
+            "line": 774,
+            "cwe": "CWE-20",
+            "snippet": "settings = json.loads(get_user_settings(doctype, for_update=True) or \"{}\")"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/patches/v11_0/replicate_old_user_permissions.py",
+            "line": 85,
+            "cwe": "CWE-20",
+            "snippet": "return json.loads(perm.user_permission_doctypes or \"[]\")"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/model/db_query.py",
+            "line": 218,
+            "cwe": "CWE-20",
+            "snippet": "self.user_settings = json.loads(user_settings)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/model/qb_query.py",
+            "line": 237,
+            "cwe": "CWE-20",
+            "snippet": "user_settings = json.loads(user_settings)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/model/utils/user_settings.py",
+            "line": 34,
+            "cwe": "CWE-20",
+            "snippet": "current = json.loads(user_settings)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/desk/doctype/event/event.py",
+            "line": 226,
+            "cwe": "CWE-20",
+            "snippet": "user_settings = json.loads(user_settings)"
+          },
+          {
+            "severity": "medium",
+            "file": "frappe/desk/doctype/desktop_icon/desktop_icon.py",
+            "line": 447,
+            "cwe": "CWE-20",
+            "snippet": "new_icons = json.loads(user_settings.get(\"icons_to_create\"))"
+          }
+        ]
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "frappe/public/js/frappe/form/form.js",
+            "line": 1263,
+            "cwe": "CWE-862",
+            "snippet": "_cancel(btn, callback, on_error, skip_confirm) {"
+          }
+        ]
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "frappe/public/js/frappe/color_picker/utils.js",
+            "line": 39,
+            "cwe": "CWE-",
+            "snippet": "h = 0; // achromatic"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 4,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_email.py",
+            "line": 253,
+            "cwe": "CWE-",
+            "snippet": "self.assertTrue(verify_request())"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_password.py",
+            "line": 66,
+            "cwe": "CWE-",
+            "snippet": "self.assertTrue(passlibctx.verify(new_password, auth.password))"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/tests/test_twofactor.py",
+            "line": 66,
+            "cwe": "CWE-",
+            "snippet": "self.assertTrue(verification_obj[\"setup\"])"
+          },
+          {
+            "severity": "low",
+            "file": "frappe/integrations/doctype/social_login_key/test_social_login_key.py",
+            "line": 239,
+            "cwe": "CWE-",
+            "snippet": "self.assertTrue(info[\"email_verified\"])"
+          }
+        ]
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:d8844289-9832-5fdd-b9be-99788f20ddaa",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:02:43Z",
+      "component": {
+        "type": "application",
+        "name": "FRAPPE",
+        "version": "ada0e11941af",
+        "bom-ref": "pkg:generic/anticloud/FRAPPE@ada0e11941af",
+        "purl": "pkg:generic/anticloud/FRAPPE@ada0e11941af",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "ada0e11941afb860fa865131f939d80143353d63"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/frappe/frappe"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@atlaskit/pragmatic-drag-and-drop",
+        "version": "^2.0.1",
+        "purl": "pkg:npm/@atlaskit/pragmatic-drag-and-drop@^2.0.1",
+        "bom-ref": "npm/@atlaskit/pragmatic-drag-and-drop@^2.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@editorjs/editorjs",
+        "version": "^2.28.2",
+        "purl": "pkg:npm/@editorjs/editorjs@^2.28.2",
+        "bom-ref": "npm/@editorjs/editorjs@^2.28.2"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/core",
+        "version": "^6.1.11",
+        "purl": "pkg:npm/@fullcalendar/core@^6.1.11",
+        "bom-ref": "npm/@fullcalendar/core@^6.1.11"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/daygrid",
+        "version": "^6.1.11",
+        "purl": "pkg:npm/@fullcalendar/daygrid@^6.1.11",
+        "bom-ref": "npm/@fullcalendar/daygrid@^6.1.11"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/interaction",
+        "version": "^6.1.11",
+        "purl": "pkg:npm/@fullcalendar/interaction@^6.1.11",
+        "bom-ref": "npm/@fullcalendar/interaction@^6.1.11"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/list",
+        "version": "^6.1.11",
+        "purl": "pkg:npm/@fullcalendar/list@^6.1.11",
+        "bom-ref": "npm/@fullcalendar/list@^6.1.11"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/timegrid",
+        "version": "^6.1.11",
+        "purl": "pkg:npm/@fullcalendar/timegrid@^6.1.11",
+        "bom-ref": "npm/@fullcalendar/timegrid@^6.1.11"
+      },
+      {
+        "type": "library",
+        "name": "@headlessui/vue",
+        "version": "^1.7.16",
+        "purl": "pkg:npm/@headlessui/vue@^1.7.16",
+        "bom-ref": "npm/@headlessui/vue@^1.7.16"
+      },
+      {
+        "type": "library",
+        "name": "@popperjs/core",
+        "version": "^2.11.2",
+        "purl": "pkg:npm/@popperjs/core@^2.11.2",
+        "bom-ref": "npm/@popperjs/core@^2.11.2"
+      },
+      {
+        "type": "library",
+        "name": "@redis/client",
+        "version": "^1.5.8",
+        "purl": "pkg:npm/@redis/client@^1.5.8",
+        "bom-ref": "npm/@redis/client@^1.5.8"
+      },
+      {
+        "type": "library",
+        "name": "@sentry/browser",
+        "version": "^7.119.1",
+        "purl": "pkg:npm/@sentry/browser@^7.119.1",
+        "bom-ref": "npm/@sentry/browser@^7.119.1"
+      },
+      {
+        "type": "library",
+        "name": "@vue-flow/background",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/@vue-flow/background@^1.1.0",
+        "bom-ref": "npm/@vue-flow/background@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@vue-flow/core",
+        "version": "^1.16.2",
+        "purl": "pkg:npm/@vue-flow/core@^1.16.2",
+        "bom-ref": "npm/@vue-flow/core@^1.16.2"
+      },
+      {
+        "type": "library",
+        "name": "@vueuse/core",
+        "version": "^9.5.0",
+        "purl": "pkg:npm/@vueuse/core@^9.5.0",
+        "bom-ref": "npm/@vueuse/core@^9.5.0"
+      },
+      {
+        "type": "library",
+        "name": "ace-builds",
+        "version": "^1.4.8",
+        "purl": "pkg:npm/ace-builds@^1.4.8",
+        "bom-ref": "npm/ace-builds@^1.4.8"
+      },
+      {
+        "type": "library",
+        "name": "air-datepicker",
+        "version": "git+https://github.com/frappe/air-datepicker",
+        "purl": "pkg:npm/air-datepicker@git+https://github.com/frappe/air-datepicker",
+        "bom-ref": "npm/air-datepicker@git+https://github.com/frappe/air-datepicker"
+      },
+      {
+        "type": "library",
+        "name": "awesomplete",
+        "version": "^1.1.5",
+        "purl": "pkg:npm/awesomplete@^1.1.5",
+        "bom-ref": "npm/awesomplete@^1.1.5"
+      },
+      {
+        "type": "library",
+        "name": "bootstrap",
+        "version": "4.6.2",
+        "purl": "pkg:npm/bootstrap@4.6.2",
+        "bom-ref": "npm/bootstrap@4.6.2"
+      },
+      {
+        "type": "library",
+        "name": "chalk",
+        "version": "^2.3.2",
+        "purl": "pkg:npm/chalk@^2.3.2",
+        "bom-ref": "npm/chalk@^2.3.2"
+      },
+      {
+        "type": "library",
+        "name": "cliui",
+        "version": "^7.0.4",
+        "purl": "pkg:npm/cliui@^7.0.4",
+        "bom-ref": "npm/cliui@^7.0.4"
+      },
+      {
+        "type": "library",
+        "name": "cookie",
+        "version": "^0.7.0",
+        "purl": "pkg:npm/cookie@^0.7.0",
+        "bom-ref": "npm/cookie@^0.7.0"
+      },
+      {
+        "type": "library",
+        "name": "cropperjs",
+        "version": "^1.5.12",
+        "purl": "pkg:npm/cropperjs@^1.5.12",
+        "bom-ref": "npm/cropperjs@^1.5.12"
+      },
+      {
+        "type": "library",
+        "name": "driver.js",
+        "version": "^0.9.8",
+        "purl": "pkg:npm/driver.js@^0.9.8",
+        "bom-ref": "npm/driver.js@^0.9.8"
+      },
+      {
+        "type": "library",
+        "name": "editorjs-undo",
+        "version": "0.1.6",
+        "purl": "pkg:npm/editorjs-undo@0.1.6",
+        "bom-ref": "npm/editorjs-undo@0.1.6"
+      },
+      {
+        "type": "library",
+        "name": "esbuild",
+        "version": "^0.28.1",
+        "purl": "pkg:npm/esbuild@^0.28.1",
+        "bom-ref": "npm/esbuild@^0.28.1"
+      },
+      {
+        "type": "library",
+        "name": "esbuild-plugin-vue3",
+        "version": "^0.3.0",
+        "purl": "pkg:npm/esbuild-plugin-vue3@^0.3.0",
+        "bom-ref": "npm/esbuild-plugin-vue3@^0.3.0"
+      },
+      {
+        "type": "library",
+        "name": "fast-deep-equal",
+        "version": "^2.0.1",
+        "purl": "pkg:npm/fast-deep-equal@^2.0.1",
+        "bom-ref": "npm/fast-deep-equal@^2.0.1"
+      },
+      {
+        "type": "library",
+        "name": "fast-glob",
+        "version": "^3.2.5",
+        "purl": "pkg:npm/fast-glob@^3.2.5",
+        "bom-ref": "npm/fast-glob@^3.2.5"
+      },
+      {
+        "type": "library",
+        "name": "frappe-charts",
+        "version": "2.0.0-rc27",
+        "purl": "pkg:npm/frappe-charts@2.0.0-rc27",
+        "bom-ref": "npm/frappe-charts@2.0.0-rc27"
+      },
+      {
+        "type": "library",
+        "name": "frappe-datatable",
+        "version": "1.21.2",
+        "purl": "pkg:npm/frappe-datatable@1.21.2",
+        "bom-ref": "npm/frappe-datatable@1.21.2"
+      },
+      {
+        "type": "library",
+        "name": "frappe-gantt",
+        "version": "^1.2.1",
+        "purl": "pkg:npm/frappe-gantt@^1.2.1",
+        "bom-ref": "npm/frappe-gantt@^1.2.1"
+      },
+      {
+        "type": "library",
+        "name": "frappe-quill-image-resize",
+        "version": "^3.0.9",
+        "purl": "pkg:npm/frappe-quill-image-resize@^3.0.9",
+        "bom-ref": "npm/frappe-quill-image-resize@^3.0.9"
+      },
+      {
+        "type": "library",
+        "name": "highlight.js",
+        "version": "^10.4.1",
+        "purl": "pkg:npm/highlight.js@^10.4.1",
+        "bom-ref": "npm/highlight.js@^10.4.1"
+      },
+      {
+        "type": "library",
+        "name": "html5-qrcode",
+        "version": "^2.3.8",
+        "purl": "pkg:npm/html5-qrcode@^2.3.8",
+        "bom-ref": "npm/html5-qrcode@^2.3.8"
+      },
+      {
+        "type": "library",
+        "name": "jquery",
+        "version": "3.7.1",
+        "purl": "pkg:npm/jquery@3.7.1",
+        "bom-ref": "npm/jquery@3.7.1"
+      },
+      {
+        "type": "library",
+        "name": "js-sha256",
+        "version": "^0.9.0",
+        "purl": "pkg:npm/js-sha256@^0.9.0",
+        "bom-ref": "npm/js-sha256@^0.9.0"
+      },
+      {
+        "type": "library",
+        "name": "jsbarcode",
+        "version": "^3.11.0",
+        "purl": "pkg:npm/jsbarcode@^3.11.0",
+        "bom-ref": "npm/jsbarcode@^3.11.0"
+      },
+      {
+        "type": "library",
+        "name": "launch-editor",
+        "version": "^2.14.1",
+        "purl": "pkg:npm/launch-editor@^2.14.1",
+        "bom-ref": "npm/launch-editor@^2.14.1"
+      },
+      {
+        "type": "library",
+        "name": "less",
+        "version": "^4.2.0",
+        "purl": "pkg:npm/less@^4.2.0",
+        "bom-ref": "npm/less@^4.2.0"
+      },
+      {
+        "type": "library",
+        "name": "localforage",
+        "version": "^1.10.0",
+        "purl": "pkg:npm/localforage@^1.10.0",
+        "bom-ref": "npm/localforage@^1.10.0"
+      },
+      {
+        "type": "library",
+        "name": "md5",
+        "version": "^2.3.0",
+        "purl": "pkg:npm/md5@^2.3.0",
+        "bom-ref": "npm/md5@^2.3.0"
+      },
+      {
+        "type": "library",
+        "name": "moment",
+        "version": "^2.29.4",
+        "purl": "pkg:npm/moment@^2.29.4",
+        "bom-ref": "npm/moment@^2.29.4"
+      },
+      {
+        "type": "library",
+        "name": "moment-timezone",
+        "version": "^0.5.35",
+        "purl": "pkg:npm/moment-timezone@^0.5.35",
+        "bom-ref": "npm/moment-timezone@^0.5.35"
+      },
+      {
+        "type": "library",
+        "name": "photoswipe",
+        "version": "^5.4.3",
+        "purl": "pkg:npm/photoswipe@^5.4.3",
+        "bom-ref": "npm/photoswipe@^5.4.3"
+      },
+      {
+        "type": "library",
+        "name": "pinia",
+        "version": "^2.0.23",
+        "purl": "pkg:npm/pinia@^2.0.23",
+        "bom-ref": "npm/pinia@^2.0.23"
+      },
+      {
+        "type": "library",
+        "name": "plyr",
+        "version": "^3.7.8",
+        "purl": "pkg:npm/plyr@^3.7.8",
+        "bom-ref": "npm/plyr@^3.7.8"
+      },
+      {
+        "type": "library",
+        "name": "popper.js",
+        "version": "^1.16.0",
+        "purl": "pkg:npm/popper.js@^1.16.0",
+        "bom-ref": "npm/popper.js@^1.16.0"
+      },
+      {
+        "type": "library",
+        "name": "postcss",
+        "version": "8",
+        "purl": "pkg:npm/postcss@8",
+        "bom-ref": "npm/postcss@8"
+      },
+      {
+        "type": "library",
+        "name": "quill",
+        "version": "2.0.3",
+        "purl": "pkg:npm/quill@2.0.3",
+        "bom-ref": "npm/quill@2.0.3"
+      },
+      {
+        "type": "library",
+        "name": "quill-magic-url",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/quill-magic-url@^3.0.0",
+        "bom-ref": "npm/quill-magic-url@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "qz-tray",
+        "version": "^2.0.8",
+        "purl": "pkg:npm/qz-tray@^2.0.8",
+        "bom-ref": "npm/qz-tray@^2.0.8"
+      },
+      {
+        "type": "library",
+        "name": "rtlcss",
+        "version": "^4.3.0",
+        "purl": "pkg:npm/rtlcss@^4.3.0",
+        "bom-ref": "npm/rtlcss@^4.3.0"
+      },
+      {
+        "type": "library",
+        "name": "sass",
+        "version": "^1.63.0",
+        "purl": "pkg:npm/sass@^1.63.0",
+        "bom-ref": "npm/sass@^1.63.0"
+      },
+      {
+        "type": "library",
+        "name": "sass-embedded",
+        "version": "^1.100.0",
+        "purl": "pkg:npm/sass-embedded@^1.100.0",
+        "bom-ref": "npm/sass-embedded@^1.100.0"
+      },
+      {
+        "type": "library",
+        "name": "showdown",
+        "version": "^2.1.0",
+        "purl": "pkg:npm/showdown@^2.1.0",
+        "bom-ref": "npm/showdown@^2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "socket.io",
+        "version": "^4.7.1",
+        "purl": "pkg:npm/socket.io@^4.7.1",
+        "bom-ref": "npm/socket.io@^4.7.1"
+      },
+      {
+        "type": "library",
+        "name": "socket.io-client",
+        "version": "^4.7.1",
+        "purl": "pkg:npm/socket.io-client@^4.7.1",
+        "bom-ref": "npm/socket.io-client@^4.7.1"
+      },
+      {
+        "type": "library",
+        "name": "sortablejs",
+        "version": "^1.15.0",
+        "purl": "pkg:npm/sortablejs@^1.15.0",
+        "bom-ref": "npm/sortablejs@^1.15.0"
+      },
+      {
+        "type": "library",
+        "name": "vue",
+        "version": "^3.3.0",
+        "purl": "pkg:npm/vue@^3.3.0",
+        "bom-ref": "npm/vue@^3.3.0"
+      },
+      {
+        "type": "library",
+        "name": "vuedraggable",
+        "version": "^4.1.0",
+        "purl": "pkg:npm/vuedraggable@^4.1.0",
+        "bom-ref": "npm/vuedraggable@^4.1.0"
+      },
+      {
+        "type": "library",
+        "name": "yargs",
+        "version": "^17.5.1",
+        "purl": "pkg:npm/yargs@^17.5.1",
+        "bom-ref": "npm/yargs@^17.5.1"
+      },
+      {
+        "type": "library",
+        "name": "lucide-static",
+        "version": "1.47.0",
+        "purl": "pkg:npm/lucide-static@1.47.0",
+        "bom-ref": "npm/lucide-static@1.47.0"
+      },
+      {
+        "type": "library",
+        "name": "bufferutil",
+        "version": "^4.0.8",
+        "purl": "pkg:npm/bufferutil@^4.0.8",
+        "bom-ref": "npm/bufferutil@^4.0.8"
+      },
+      {
+        "type": "library",
+        "name": "utf-8-validate",
+        "version": "^6.0.3",
+        "purl": "pkg:npm/utf-8-validate@^6.0.3",
+        "bom-ref": "npm/utf-8-validate@^6.0.3"
+      },
+      {
+        "type": "library",
+        "name": "Babel",
+        "version": "~=2.16.0",
+        "purl": "pkg:pypi/babel@2.16.0",
+        "bom-ref": "pypi/Babel@~=2.16.0"
+      },
+      {
+        "type": "library",
+        "name": "Click",
+        "version": "~=8.4.1",
+        "purl": "pkg:pypi/click@8.4.1",
+        "bom-ref": "pypi/Click@~=8.4.1"
+      },
+      {
+        "type": "library",
+        "name": "filelock",
+        "version": "~=3.29.3",
+        "purl": "pkg:pypi/filelock@3.29.3",
+        "bom-ref": "pypi/filelock@~=3.29.3"
+      },
+      {
+        "type": "library",
+        "name": "filetype",
+        "version": "~=1.2.0",
+        "purl": "pkg:pypi/filetype@1.2.0",
+        "bom-ref": "pypi/filetype@~=1.2.0"
+      },
+      {
+        "type": "library",
+        "name": "GitPython",
+        "version": "~=3.1.45",
+        "purl": "pkg:pypi/gitpython@3.1.45",
+        "bom-ref": "pypi/GitPython@~=3.1.45"
+      },
+      {
+        "type": "library",
+        "name": "Jinja2",
+        "version": "~=3.1.6",
+        "purl": "pkg:pypi/jinja2@3.1.6",
+        "bom-ref": "pypi/Jinja2@~=3.1.6"
+      },
+      {
+        "type": "library",
+        "name": "Pillow",
+        "version": "~=12.3.0",
+        "purl": "pkg:pypi/pillow@12.3.0",
+        "bom-ref": "pypi/Pillow@~=12.3.0"
+      },
+      {
+        "type": "library",
+        "name": "PyJWT",
+        "version": "~=2.15.0",
+        "purl": "pkg:pypi/pyjwt@2.15.0",
+        "bom-ref": "pypi/PyJWT@~=2.15.0"
+      },
+      {
+        "type": "library",
+        "name": "duckdb",
+        "version": "~=1.4.3",
+        "purl": "pkg:pypi/duckdb@1.4.3",
+        "bom-ref": "pypi/duckdb@~=1.4.3"
+      },
+      {
+        "type": "library",
+        "name": "pyarrow",
+        "version": "~=25.0.0",
+        "purl": "pkg:pypi/pyarrow@25.0.0",
+        "bom-ref": "pypi/pyarrow@~=25.0.0"
+      },
+      {
+        "type": "library",
+        "name": "PyMySQL",
+        "version": "==1.1.2",
+        "purl": "pkg:pypi/pymysql@1.1.2",
+        "bom-ref": "pypi/PyMySQL@==1.1.2"
+      },
+      {
+        "type": "library",
+        "name": "pypdf",
+        "version": "==6.16.1",
+        "purl": "pkg:pypi/pypdf@6.16.1",
+        "bom-ref": "pypi/pypdf@==6.16.1"
+      },
+      {
+        "type": "library",
+        "name": "PyPika",
+        "version": "@",
+        "purl": "pkg:pypi/pypika@@",
+        "bom-ref": "pypi/PyPika@@"
+      },
+      {
+        "type": "library",
+        "name": "mysqlclient",
+        "version": "==2.2.8",
+        "purl": "pkg:pypi/mysqlclient@2.2.8",
+        "bom-ref": "pypi/mysqlclient@==2.2.8"
+      },
+      {
+        "type": "library",
+        "name": "PyQRCode",
+        "version": "~=1.2.1",
+        "purl": "pkg:pypi/pyqrcode@1.2.1",
+        "bom-ref": "pypi/PyQRCode@~=1.2.1"
+      },
+      {
+        "type": "library",
+        "name": "PyYAML",
+        "version": "~=6.0.3",
+        "purl": "pkg:pypi/pyyaml@6.0.3",
+        "bom-ref": "pypi/PyYAML@~=6.0.3"
+      },
+      {
+        "type": "library",
+        "name": "RestrictedPython",
+        "version": "~=8.5",
+        "purl": "pkg:pypi/restrictedpython@8.5",
+        "bom-ref": "pypi/RestrictedPython@~=8.5"
+      },
+      {
+        "type": "library",
+        "name": "Werkzeug",
+        "version": "==3.1.6",
+        "purl": "pkg:pypi/werkzeug@3.1.6",
+        "bom-ref": "pypi/Werkzeug@==3.1.6"
+      },
+      {
+        "type": "library",
+        "name": "beautifulsoup4",
+        "version": "~=4.15.0",
+        "purl": "pkg:pypi/beautifulsoup4@4.15.0",
+        "bom-ref": "pypi/beautifulsoup4@~=4.15.0"
+      },
+      {
+        "type": "library",
+        "name": "bleach-allowlist",
+        "version": "~=1.0.3",
+        "purl": "pkg:pypi/bleach-allowlist@1.0.3",
+        "bom-ref": "pypi/bleach-allowlist@~=1.0.3"
+      },
+      {
+        "type": "library",
+        "name": "chardet",
+        "version": "~=7.4.3",
+        "purl": "pkg:pypi/chardet@7.4.3",
+        "bom-ref": "pypi/chardet@~=7.4.3"
+      },
+      {
+        "type": "library",
+        "name": "croniter",
+        "version": "~=6.2.2",
+        "purl": "pkg:pypi/croniter@6.2.2",
+        "bom-ref": "pypi/croniter@~=6.2.2"
+      },
+      {
+        "type": "library",
+        "name": "cryptography",
+        "version": "~=50.0.0",
+        "purl": "pkg:pypi/cryptography@50.0.0",
+        "bom-ref": "pypi/cryptography@~=50.0.0"
+      },
+      {
+        "type": "library",
+        "name": "cssutils",
+        "version": "~=2.15.0",
+        "purl": "pkg:pypi/cssutils@2.15.0",
+        "bom-ref": "pypi/cssutils@~=2.15.0"
+      },
+      {
+        "type": "library",
+        "name": "distro",
+        "version": "~=1.9.0",
+        "purl": "pkg:pypi/distro@1.9.0",
+        "bom-ref": "pypi/distro@~=1.9.0"
+      },
+      {
+        "type": "library",
+        "name": "email-reply-parser",
+        "version": "~=0.5.12",
+        "purl": "pkg:pypi/email-reply-parser@0.5.12",
+        "bom-ref": "pypi/email-reply-parser@~=0.5.12"
+      },
+      {
+        "type": "library",
+        "name": "Faker",
+        "version": "~=40.23.0",
+        "purl": "pkg:pypi/faker@40.23.0",
+        "bom-ref": "pypi/Faker@~=40.23.0"
+      },
+      {
+        "type": "library",
+        "name": "gunicorn",
+        "version": "@",
+        "purl": "pkg:pypi/gunicorn@@",
+        "bom-ref": "pypi/gunicorn@@"
+      },
+      {
+        "type": "library",
+        "name": "html5lib",
+        "version": "~=1.1",
+        "purl": "pkg:pypi/html5lib@1.1",
+        "bom-ref": "pypi/html5lib@~=1.1"
+      },
+      {
+        "type": "library",
+        "name": "ipython",
+        "version": "~=9.14.0",
+        "purl": "pkg:pypi/ipython@9.14.0",
+        "bom-ref": "pypi/ipython@~=9.14.0"
+      },
+      {
+        "type": "library",
+        "name": "ldap3",
+        "version": "~=2.9.1",
+        "purl": "pkg:pypi/ldap3@2.9.1",
+        "bom-ref": "pypi/ldap3@~=2.9.1"
+      },
+      {
+        "type": "library",
+        "name": "markdown2",
+        "version": "~=2.5.4",
+        "purl": "pkg:pypi/markdown2@2.5.4",
+        "bom-ref": "pypi/markdown2@~=2.5.4"
+      },
+      {
+        "type": "library",
+        "name": "MarkupSafe",
+        "version": "~=3.0.3",
+        "purl": "pkg:pypi/markupsafe@3.0.3",
+        "bom-ref": "pypi/MarkupSafe@~=3.0.3"
+      },
+      {
+        "type": "library",
+        "name": "nh3",
+        "version": "~=0.3.2",
+        "purl": "pkg:pypi/nh3@0.3.2",
+        "bom-ref": "pypi/nh3@~=0.3.2"
+      },
+      {
+        "type": "library",
+        "name": "num2words",
+        "version": "~=0.5.14",
+        "purl": "pkg:pypi/num2words@0.5.14",
+        "bom-ref": "pypi/num2words@~=0.5.14"
+      },
+      {
+        "type": "library",
+        "name": "oauthlib",
+        "version": "~=4.0.0",
+        "purl": "pkg:pypi/oauthlib@4.0.0",
+        "bom-ref": "pypi/oauthlib@~=4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "openpyxl",
+        "version": "~=3.1.5",
+        "purl": "pkg:pypi/openpyxl@3.1.5",
+        "bom-ref": "pypi/openpyxl@~=3.1.5"
+      },
+      {
+        "type": "library",
+        "name": "xlsxwriter",
+        "version": "~=3.2.9",
+        "purl": "pkg:pypi/xlsxwriter@3.2.9",
+        "bom-ref": "pypi/xlsxwriter@~=3.2.9"
+      },
+      {
+        "type": "library",
+        "name": "orjson",
+        "version": "~=3.11.5",
+        "purl": "pkg:pypi/orjson@3.11.5",
+        "bom-ref": "pypi/orjson@~=3.11.5"
+      },
+      {
+        "type": "library",
+        "name": "passlib",
+        "version": "~=1.7.4",
+        "purl": "pkg:pypi/passlib@1.7.4",
+        "bom-ref": "pypi/passlib@~=1.7.4"
+      },
+      {
+        "type": "library",
+        "name": "pdfkit",
+        "version": "~=1.0.0",
+        "purl": "pkg:pypi/pdfkit@1.0.0",
+        "bom-ref": "pypi/pdfkit@~=1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "phonenumbers",
+        "version": "~=9.0.23",
+        "purl": "pkg:pypi/phonenumbers@9.0.23",
+        "bom-ref": "pypi/phonenumbers@~=9.0.23"
+      },
+      {
+        "type": "library",
+        "name": "premailer",
+        "version": "~=3.10.0",
+        "purl": "pkg:pypi/premailer@3.10.0",
+        "bom-ref": "pypi/premailer@~=3.10.0"
+      },
+      {
+        "type": "library",
+        "name": "psutil",
+        "version": "~=7.2.2",
+        "purl": "pkg:pypi/psutil@7.2.2",
+        "bom-ref": "pypi/psutil@~=7.2.2"
+      },
+      {
+        "type": "library",
+        "name": "psycopg2-binary",
+        "version": "~=2.9.11",
+        "purl": "pkg:pypi/psycopg2-binary@2.9.11",
+        "bom-ref": "pypi/psycopg2-binary@~=2.9.11"
+      },
+      {
+        "type": "library",
+        "name": "pyOpenSSL",
+        "version": "~=26.4.0",
+        "purl": "pkg:pypi/pyopenssl@26.4.0",
+        "bom-ref": "pypi/pyOpenSSL@~=26.4.0"
+      },
+      {
+        "type": "library",
+        "name": "pydantic",
+        "version": "~=2.13.4",
+        "purl": "pkg:pypi/pydantic@2.13.4",
+        "bom-ref": "pypi/pydantic@~=2.13.4"
+      },
+      {
+        "type": "library",
+        "name": "pyotp",
+        "version": "~=2.9.0",
+        "purl": "pkg:pypi/pyotp@2.9.0",
+        "bom-ref": "pypi/pyotp@~=2.9.0"
+      },
+      {
+        "type": "library",
+        "name": "python-dateutil",
+        "version": "~=2.9.0.post0",
+        "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+        "bom-ref": "pypi/python-dateutil@~=2.9.0.post0"
+      },
+      {
+        "type": "library",
+        "name": "pytz",
+        "version": "==2026.2",
+        "purl": "pkg:pypi/pytz@2026.2",
+        "bom-ref": "pypi/pytz@==2026.2"
+      },
+      {
+        "type": "library",
+        "name": "rauth",
+        "version": "~=0.7.3",
+        "purl": "pkg:pypi/rauth@0.7.3",
+        "bom-ref": "pypi/rauth@~=0.7.3"
+      },
+      {
+        "type": "library",
+        "name": "redis",
+        "version": "~=7.1.0",
+        "purl": "pkg:pypi/redis@7.1.0",
+        "bom-ref": "pypi/redis@~=7.1.0"
+      },
+      {
+        "type": "library",
+        "name": "hiredis",
+        "version": "~=3.3.0",
+        "purl": "pkg:pypi/hiredis@3.3.0",
+        "bom-ref": "pypi/hiredis@~=3.3.0"
+      },
+      {
+        "type": "library",
+        "name": "requests-oauthlib",
+        "version": "~=2.0.0",
+        "purl": "pkg:pypi/requests-oauthlib@2.0.0",
+        "bom-ref": "pypi/requests-oauthlib@~=2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "requests",
+        "version": "~=2.34.2",
+        "purl": "pkg:pypi/requests@2.34.2",
+        "bom-ref": "pypi/requests@~=2.34.2"
+      },
+      {
+        "type": "library",
+        "name": "rq",
+        "version": "==2.6.1",
+        "purl": "pkg:pypi/rq@2.6.1",
+        "bom-ref": "pypi/rq@==2.6.1"
+      },
+      {
+        "type": "library",
+        "name": "rsa",
+        "version": "~=4.9.1",
+        "purl": "pkg:pypi/rsa@4.9.1",
+        "bom-ref": "pypi/rsa@~=4.9.1"
+      },
+      {
+        "type": "library",
+        "name": "semantic-version",
+        "version": "~=2.10.0",
+        "purl": "pkg:pypi/semantic-version@2.10.0",
+        "bom-ref": "pypi/semantic-version@~=2.10.0"
+      },
+      {
+        "type": "library",
+        "name": "sentry-sdk",
+        "version": "~=2.60.0",
+        "purl": "pkg:pypi/sentry-sdk@2.60.0",
+        "bom-ref": "pypi/sentry-sdk@~=2.60.0"
+      },
+      {
+        "type": "library",
+        "name": "sqlglot",
+        "version": "~=30.16.0",
+        "purl": "pkg:pypi/sqlglot@30.16.0",
+        "bom-ref": "pypi/sqlglot@~=30.16.0"
+      },
+      {
+        "type": "library",
+        "name": "sqlparse",
+        "version": "~=0.6.0",
+        "purl": "pkg:pypi/sqlparse@0.6.0",
+        "bom-ref": "pypi/sqlparse@~=0.6.0"
+      },
+      {
+        "type": "library",
+        "name": "sql_metadata",
+        "version": "~=3.0.1",
+        "purl": "pkg:pypi/sql-metadata@3.0.1",
+        "bom-ref": "pypi/sql_metadata@~=3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "tenacity",
+        "version": "~=9.1.2",
+        "purl": "pkg:pypi/tenacity@9.1.2",
+        "bom-ref": "pypi/tenacity@~=9.1.2"
+      },
+      {
+        "type": "library",
+        "name": "terminaltables",
+        "version": "~=3.1.10",
+        "purl": "pkg:pypi/terminaltables@3.1.10",
+        "bom-ref": "pypi/terminaltables@~=3.1.10"
+      },
+      {
+        "type": "library",
+        "name": "traceback-with-variables",
+        "version": "~=2.2.1",
+        "purl": "pkg:pypi/traceback-with-variables@2.2.1",
+        "bom-ref": "pypi/traceback-with-variables@~=2.2.1"
+      },
+      {
+        "type": "library",
+        "name": "typst",
+        "version": "~=0.15.0",
+        "purl": "pkg:pypi/typst@0.15.0",
+        "bom-ref": "pypi/typst@~=0.15.0"
+      },
+      {
+        "type": "library",
+        "name": "typing_extensions",
+        "version": ">=4.15.0",
+        "purl": "pkg:pypi/typing-extensions@4.15.0",
+        "bom-ref": "pypi/typing_extensions@>=4.15.0"
+      },
+      {
+        "type": "library",
+        "name": "xlrd",
+        "version": "~=2.0.2",
+        "purl": "pkg:pypi/xlrd@2.0.2",
+        "bom-ref": "pypi/xlrd@~=2.0.2"
+      },
+      {
+        "type": "library",
+        "name": "zxcvbn",
+        "version": "~=4.5.0",
+        "purl": "pkg:pypi/zxcvbn@4.5.0",
+        "bom-ref": "pypi/zxcvbn@~=4.5.0"
+      },
+      {
+        "type": "library",
+        "name": "markdownify",
+        "version": "~=1.2.2",
+        "purl": "pkg:pypi/markdownify@1.2.2",
+        "bom-ref": "pypi/markdownify@~=1.2.2"
+      },
+      {
+        "type": "library",
+        "name": "google-api-python-client",
+        "version": "~=2.197.0",
+        "purl": "pkg:pypi/google-api-python-client@2.197.0",
+        "bom-ref": "pypi/google-api-python-client@~=2.197.0"
+      },
+      {
+        "type": "library",
+        "name": "google-auth-oauthlib",
+        "version": "~=1.4.0",
+        "purl": "pkg:pypi/google-auth-oauthlib@1.4.0",
+        "bom-ref": "pypi/google-auth-oauthlib@~=1.4.0"
+      },
+      {
+        "type": "library",
+        "name": "google-auth",
+        "version": "~=2.53.0",
+        "purl": "pkg:pypi/google-auth@2.53.0",
+        "bom-ref": "pypi/google-auth@~=2.53.0"
+      },
+      {
+        "type": "library",
+        "name": "vobject",
+        "version": "~=0.9.9",
+        "purl": "pkg:pypi/vobject@0.9.9",
+        "bom-ref": "pypi/vobject@~=0.9.9"
+      },
+      {
+        "type": "library",
+        "name": "pycountry",
+        "version": "~=26.2.16",
+        "purl": "pkg:pypi/pycountry@26.2.16",
+        "bom-ref": "pypi/pycountry@~=26.2.16"
+      },
+      {
+        "type": "library",
+        "name": "websockets",
+        "version": "~=15.0.1",
+        "purl": "pkg:pypi/websockets@15.0.1",
+        "bom-ref": "pypi/websockets@~=15.0.1"
+      },
+      {
+        "type": "library",
+        "name": "s",
+        "version": "socket.io-client",
+        "purl": "pkg:pypi/s@socket.io-client",
+        "bom-ref": "pypi/s@socket.io-client"
+      },
+      {
+        "type": "library",
+        "name": "dompurify",
+        "version": "^3.4.0",
+        "purl": "pkg:npm/dompurify@^3.4.0",
+        "bom-ref": "npm/dompurify@^3.4.0"
+      },
+      {
+        "type": "library",
+        "name": "leaflet",
+        "version": "^1.9.4",
+        "purl": "pkg:npm/leaflet@^1.9.4",
+        "bom-ref": "npm/leaflet@^1.9.4"
+      },
+      {
+        "type": "library",
+        "name": "leaflet-draw",
+        "version": "^1.0.4",
+        "purl": "pkg:npm/leaflet-draw@^1.0.4",
+        "bom-ref": "npm/leaflet-draw@^1.0.4"
+      },
+      {
+        "type": "library",
+        "name": "leaflet.locatecontrol",
+        "version": "^0.89.0",
+        "purl": "pkg:npm/leaflet.locatecontrol@^0.89.0",
+        "bom-ref": "npm/leaflet.locatecontrol@^0.89.0"
+      },
+      {
+        "type": "library",
+        "name": "marked",
+        "version": "^15.0.12",
+        "purl": "pkg:npm/marked@^15.0.12",
+        "bom-ref": "npm/marked@^15.0.12"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-css",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-css@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-css@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-html",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-html@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-html@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-javascript",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-javascript@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-javascript@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-json",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-json@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-json@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-markdown",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-markdown@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-markdown@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-python",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-python@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-python@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-sass",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-sass@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-sass@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-sql",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-sql@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-sql@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-xml",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-xml@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-xml@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-yaml",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lang-yaml@^6.0.0",
+        "bom-ref": "npm/@codemirror/lang-yaml@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lint",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/lint@^6.0.0",
+        "bom-ref": "npm/@codemirror/lint@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/state",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/state@^6.0.0",
+        "bom-ref": "npm/@codemirror/state@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/view",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/@codemirror/view@^6.0.0",
+        "bom-ref": "npm/@codemirror/view@^6.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@vitejs/plugin-vue",
+        "version": ">=4",
+        "purl": "pkg:npm/@vitejs/plugin-vue@>=4",
+        "bom-ref": "npm/@vitejs/plugin-vue@>=4"
+      },
+      {
+        "type": "library",
+        "name": "autoprefixer",
+        "version": "^10.4.0",
+        "purl": "pkg:npm/autoprefixer@^10.4.0",
+        "bom-ref": "npm/autoprefixer@^10.4.0"
+      },
+      {
+        "type": "library",
+        "name": "frappe-ui",
+        "version": ">=1.0.0-rc.1",
+        "purl": "pkg:npm/frappe-ui@>=1.0.0-rc.1",
+        "bom-ref": "npm/frappe-ui@>=1.0.0-rc.1"
+      },
+      {
+        "type": "library",
+        "name": "tailwindcss",
+        "version": "^3.4.0",
+        "purl": "pkg:npm/tailwindcss@^3.4.0",
+        "bom-ref": "npm/tailwindcss@^3.4.0"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": ">=5",
+        "purl": "pkg:npm/typescript@>=5",
+        "bom-ref": "npm/typescript@>=5"
+      },
+      {
+        "type": "library",
+        "name": "vite",
+        "version": ">=4",
+        "purl": "pkg:npm/vite@>=4",
+        "bom-ref": "npm/vite@>=4"
+      },
+      {
+        "type": "library",
+        "name": "vue-router",
+        "version": "^4.1.5",
+        "purl": "pkg:npm/vue-router@^4.1.5",
+        "bom-ref": "npm/vue-router@^4.1.5"
+      },
+      {
+        "type": "library",
+        "name": "@framework/ui",
+        "version": "link:../../..",
+        "purl": "pkg:npm/@framework/ui@link:../../..",
+        "bom-ref": "npm/@framework/ui@link:../../.."
+      }
+    ]
+  },
+  "elapsed_seconds": 406.71
+}

@@ -1,0 +1,1208 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d8844289-9832-5fdd-b9be-99788f20ddaa",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:02:43Z",
+    "component": {
+      "type": "application",
+      "name": "FRAPPE",
+      "version": "ada0e11941af",
+      "bom-ref": "pkg:generic/anticloud/FRAPPE@ada0e11941af",
+      "purl": "pkg:generic/anticloud/FRAPPE@ada0e11941af",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ada0e11941afb860fa865131f939d80143353d63"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/frappe/frappe"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@atlaskit/pragmatic-drag-and-drop",
+      "version": "^2.0.1",
+      "purl": "pkg:npm/@atlaskit/pragmatic-drag-and-drop@^2.0.1",
+      "bom-ref": "npm/@atlaskit/pragmatic-drag-and-drop@^2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@editorjs/editorjs",
+      "version": "^2.28.2",
+      "purl": "pkg:npm/@editorjs/editorjs@^2.28.2",
+      "bom-ref": "npm/@editorjs/editorjs@^2.28.2"
+    },
+    {
+      "type": "library",
+      "name": "@fullcalendar/core",
+      "version": "^6.1.11",
+      "purl": "pkg:npm/@fullcalendar/core@^6.1.11",
+      "bom-ref": "npm/@fullcalendar/core@^6.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@fullcalendar/daygrid",
+      "version": "^6.1.11",
+      "purl": "pkg:npm/@fullcalendar/daygrid@^6.1.11",
+      "bom-ref": "npm/@fullcalendar/daygrid@^6.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@fullcalendar/interaction",
+      "version": "^6.1.11",
+      "purl": "pkg:npm/@fullcalendar/interaction@^6.1.11",
+      "bom-ref": "npm/@fullcalendar/interaction@^6.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@fullcalendar/list",
+      "version": "^6.1.11",
+      "purl": "pkg:npm/@fullcalendar/list@^6.1.11",
+      "bom-ref": "npm/@fullcalendar/list@^6.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@fullcalendar/timegrid",
+      "version": "^6.1.11",
+      "purl": "pkg:npm/@fullcalendar/timegrid@^6.1.11",
+      "bom-ref": "npm/@fullcalendar/timegrid@^6.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@headlessui/vue",
+      "version": "^1.7.16",
+      "purl": "pkg:npm/@headlessui/vue@^1.7.16",
+      "bom-ref": "npm/@headlessui/vue@^1.7.16"
+    },
+    {
+      "type": "library",
+      "name": "@popperjs/core",
+      "version": "^2.11.2",
+      "purl": "pkg:npm/@popperjs/core@^2.11.2",
+      "bom-ref": "npm/@popperjs/core@^2.11.2"
+    },
+    {
+      "type": "library",
+      "name": "@redis/client",
+      "version": "^1.5.8",
+      "purl": "pkg:npm/@redis/client@^1.5.8",
+      "bom-ref": "npm/@redis/client@^1.5.8"
+    },
+    {
+      "type": "library",
+      "name": "@sentry/browser",
+      "version": "^7.119.1",
+      "purl": "pkg:npm/@sentry/browser@^7.119.1",
+      "bom-ref": "npm/@sentry/browser@^7.119.1"
+    },
+    {
+      "type": "library",
+      "name": "@vue-flow/background",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/@vue-flow/background@^1.1.0",
+      "bom-ref": "npm/@vue-flow/background@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@vue-flow/core",
+      "version": "^1.16.2",
+      "purl": "pkg:npm/@vue-flow/core@^1.16.2",
+      "bom-ref": "npm/@vue-flow/core@^1.16.2"
+    },
+    {
+      "type": "library",
+      "name": "@vueuse/core",
+      "version": "^9.5.0",
+      "purl": "pkg:npm/@vueuse/core@^9.5.0",
+      "bom-ref": "npm/@vueuse/core@^9.5.0"
+    },
+    {
+      "type": "library",
+      "name": "ace-builds",
+      "version": "^1.4.8",
+      "purl": "pkg:npm/ace-builds@^1.4.8",
+      "bom-ref": "npm/ace-builds@^1.4.8"
+    },
+    {
+      "type": "library",
+      "name": "air-datepicker",
+      "version": "git+https://github.com/frappe/air-datepicker",
+      "purl": "pkg:npm/air-datepicker@git+https://github.com/frappe/air-datepicker",
+      "bom-ref": "npm/air-datepicker@git+https://github.com/frappe/air-datepicker"
+    },
+    {
+      "type": "library",
+      "name": "awesomplete",
+      "version": "^1.1.5",
+      "purl": "pkg:npm/awesomplete@^1.1.5",
+      "bom-ref": "npm/awesomplete@^1.1.5"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap",
+      "version": "4.6.2",
+      "purl": "pkg:npm/bootstrap@4.6.2",
+      "bom-ref": "npm/bootstrap@4.6.2"
+    },
+    {
+      "type": "library",
+      "name": "chalk",
+      "version": "^2.3.2",
+      "purl": "pkg:npm/chalk@^2.3.2",
+      "bom-ref": "npm/chalk@^2.3.2"
+    },
+    {
+      "type": "library",
+      "name": "cliui",
+      "version": "^7.0.4",
+      "purl": "pkg:npm/cliui@^7.0.4",
+      "bom-ref": "npm/cliui@^7.0.4"
+    },
+    {
+      "type": "library",
+      "name": "cookie",
+      "version": "^0.7.0",
+      "purl": "pkg:npm/cookie@^0.7.0",
+      "bom-ref": "npm/cookie@^0.7.0"
+    },
+    {
+      "type": "library",
+      "name": "cropperjs",
+      "version": "^1.5.12",
+      "purl": "pkg:npm/cropperjs@^1.5.12",
+      "bom-ref": "npm/cropperjs@^1.5.12"
+    },
+    {
+      "type": "library",
+      "name": "driver.js",
+      "version": "^0.9.8",
+      "purl": "pkg:npm/driver.js@^0.9.8",
+      "bom-ref": "npm/driver.js@^0.9.8"
+    },
+    {
+      "type": "library",
+      "name": "editorjs-undo",
+      "version": "0.1.6",
+      "purl": "pkg:npm/editorjs-undo@0.1.6",
+      "bom-ref": "npm/editorjs-undo@0.1.6"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.28.1",
+      "purl": "pkg:npm/esbuild@^0.28.1",
+      "bom-ref": "npm/esbuild@^0.28.1"
+    },
+    {
+      "type": "library",
+      "name": "esbuild-plugin-vue3",
+      "version": "^0.3.0",
+      "purl": "pkg:npm/esbuild-plugin-vue3@^0.3.0",
+      "bom-ref": "npm/esbuild-plugin-vue3@^0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "fast-deep-equal",
+      "version": "^2.0.1",
+      "purl": "pkg:npm/fast-deep-equal@^2.0.1",
+      "bom-ref": "npm/fast-deep-equal@^2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "fast-glob",
+      "version": "^3.2.5",
+      "purl": "pkg:npm/fast-glob@^3.2.5",
+      "bom-ref": "npm/fast-glob@^3.2.5"
+    },
+    {
+      "type": "library",
+      "name": "frappe-charts",
+      "version": "2.0.0-rc27",
+      "purl": "pkg:npm/frappe-charts@2.0.0-rc27",
+      "bom-ref": "npm/frappe-charts@2.0.0-rc27"
+    },
+    {
+      "type": "library",
+      "name": "frappe-datatable",
+      "version": "1.21.2",
+      "purl": "pkg:npm/frappe-datatable@1.21.2",
+      "bom-ref": "npm/frappe-datatable@1.21.2"
+    },
+    {
+      "type": "library",
+      "name": "frappe-gantt",
+      "version": "^1.2.1",
+      "purl": "pkg:npm/frappe-gantt@^1.2.1",
+      "bom-ref": "npm/frappe-gantt@^1.2.1"
+    },
+    {
+      "type": "library",
+      "name": "frappe-quill-image-resize",
+      "version": "^3.0.9",
+      "purl": "pkg:npm/frappe-quill-image-resize@^3.0.9",
+      "bom-ref": "npm/frappe-quill-image-resize@^3.0.9"
+    },
+    {
+      "type": "library",
+      "name": "highlight.js",
+      "version": "^10.4.1",
+      "purl": "pkg:npm/highlight.js@^10.4.1",
+      "bom-ref": "npm/highlight.js@^10.4.1"
+    },
+    {
+      "type": "library",
+      "name": "html5-qrcode",
+      "version": "^2.3.8",
+      "purl": "pkg:npm/html5-qrcode@^2.3.8",
+      "bom-ref": "npm/html5-qrcode@^2.3.8"
+    },
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": "3.7.1",
+      "purl": "pkg:npm/jquery@3.7.1",
+      "bom-ref": "npm/jquery@3.7.1"
+    },
+    {
+      "type": "library",
+      "name": "js-sha256",
+      "version": "^0.9.0",
+      "purl": "pkg:npm/js-sha256@^0.9.0",
+      "bom-ref": "npm/js-sha256@^0.9.0"
+    },
+    {
+      "type": "library",
+      "name": "jsbarcode",
+      "version": "^3.11.0",
+      "purl": "pkg:npm/jsbarcode@^3.11.0",
+      "bom-ref": "npm/jsbarcode@^3.11.0"
+    },
+    {
+      "type": "library",
+      "name": "launch-editor",
+      "version": "^2.14.1",
+      "purl": "pkg:npm/launch-editor@^2.14.1",
+      "bom-ref": "npm/launch-editor@^2.14.1"
+    },
+    {
+      "type": "library",
+      "name": "less",
+      "version": "^4.2.0",
+      "purl": "pkg:npm/less@^4.2.0",
+      "bom-ref": "npm/less@^4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "localforage",
+      "version": "^1.10.0",
+      "purl": "pkg:npm/localforage@^1.10.0",
+      "bom-ref": "npm/localforage@^1.10.0"
+    },
+    {
+      "type": "library",
+      "name": "md5",
+      "version": "^2.3.0",
+      "purl": "pkg:npm/md5@^2.3.0",
+      "bom-ref": "npm/md5@^2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "^2.29.4",
+      "purl": "pkg:npm/moment@^2.29.4",
+      "bom-ref": "npm/moment@^2.29.4"
+    },
+    {
+      "type": "library",
+      "name": "moment-timezone",
+      "version": "^0.5.35",
+      "purl": "pkg:npm/moment-timezone@^0.5.35",
+      "bom-ref": "npm/moment-timezone@^0.5.35"
+    },
+    {
+      "type": "library",
+      "name": "photoswipe",
+      "version": "^5.4.3",
+      "purl": "pkg:npm/photoswipe@^5.4.3",
+      "bom-ref": "npm/photoswipe@^5.4.3"
+    },
+    {
+      "type": "library",
+      "name": "pinia",
+      "version": "^2.0.23",
+      "purl": "pkg:npm/pinia@^2.0.23",
+      "bom-ref": "npm/pinia@^2.0.23"
+    },
+    {
+      "type": "library",
+      "name": "plyr",
+      "version": "^3.7.8",
+      "purl": "pkg:npm/plyr@^3.7.8",
+      "bom-ref": "npm/plyr@^3.7.8"
+    },
+    {
+      "type": "library",
+      "name": "popper.js",
+      "version": "^1.16.0",
+      "purl": "pkg:npm/popper.js@^1.16.0",
+      "bom-ref": "npm/popper.js@^1.16.0"
+    },
+    {
+      "type": "library",
+      "name": "postcss",
+      "version": "8",
+      "purl": "pkg:npm/postcss@8",
+      "bom-ref": "npm/postcss@8"
+    },
+    {
+      "type": "library",
+      "name": "quill",
+      "version": "2.0.3",
+      "purl": "pkg:npm/quill@2.0.3",
+      "bom-ref": "npm/quill@2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "quill-magic-url",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/quill-magic-url@^3.0.0",
+      "bom-ref": "npm/quill-magic-url@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "qz-tray",
+      "version": "^2.0.8",
+      "purl": "pkg:npm/qz-tray@^2.0.8",
+      "bom-ref": "npm/qz-tray@^2.0.8"
+    },
+    {
+      "type": "library",
+      "name": "rtlcss",
+      "version": "^4.3.0",
+      "purl": "pkg:npm/rtlcss@^4.3.0",
+      "bom-ref": "npm/rtlcss@^4.3.0"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "^1.63.0",
+      "purl": "pkg:npm/sass@^1.63.0",
+      "bom-ref": "npm/sass@^1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "sass-embedded",
+      "version": "^1.100.0",
+      "purl": "pkg:npm/sass-embedded@^1.100.0",
+      "bom-ref": "npm/sass-embedded@^1.100.0"
+    },
+    {
+      "type": "library",
+      "name": "showdown",
+      "version": "^2.1.0",
+      "purl": "pkg:npm/showdown@^2.1.0",
+      "bom-ref": "npm/showdown@^2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "socket.io",
+      "version": "^4.7.1",
+      "purl": "pkg:npm/socket.io@^4.7.1",
+      "bom-ref": "npm/socket.io@^4.7.1"
+    },
+    {
+      "type": "library",
+      "name": "socket.io-client",
+      "version": "^4.7.1",
+      "purl": "pkg:npm/socket.io-client@^4.7.1",
+      "bom-ref": "npm/socket.io-client@^4.7.1"
+    },
+    {
+      "type": "library",
+      "name": "sortablejs",
+      "version": "^1.15.0",
+      "purl": "pkg:npm/sortablejs@^1.15.0",
+      "bom-ref": "npm/sortablejs@^1.15.0"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "^3.3.0",
+      "purl": "pkg:npm/vue@^3.3.0",
+      "bom-ref": "npm/vue@^3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "vuedraggable",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/vuedraggable@^4.1.0",
+      "bom-ref": "npm/vuedraggable@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "yargs",
+      "version": "^17.5.1",
+      "purl": "pkg:npm/yargs@^17.5.1",
+      "bom-ref": "npm/yargs@^17.5.1"
+    },
+    {
+      "type": "library",
+      "name": "lucide-static",
+      "version": "1.47.0",
+      "purl": "pkg:npm/lucide-static@1.47.0",
+      "bom-ref": "npm/lucide-static@1.47.0"
+    },
+    {
+      "type": "library",
+      "name": "bufferutil",
+      "version": "^4.0.8",
+      "purl": "pkg:npm/bufferutil@^4.0.8",
+      "bom-ref": "npm/bufferutil@^4.0.8"
+    },
+    {
+      "type": "library",
+      "name": "utf-8-validate",
+      "version": "^6.0.3",
+      "purl": "pkg:npm/utf-8-validate@^6.0.3",
+      "bom-ref": "npm/utf-8-validate@^6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "Babel",
+      "version": "~=2.16.0",
+      "purl": "pkg:pypi/babel@2.16.0",
+      "bom-ref": "pypi/Babel@~=2.16.0"
+    },
+    {
+      "type": "library",
+      "name": "Click",
+      "version": "~=8.4.1",
+      "purl": "pkg:pypi/click@8.4.1",
+      "bom-ref": "pypi/Click@~=8.4.1"
+    },
+    {
+      "type": "library",
+      "name": "filelock",
+      "version": "~=3.29.3",
+      "purl": "pkg:pypi/filelock@3.29.3",
+      "bom-ref": "pypi/filelock@~=3.29.3"
+    },
+    {
+      "type": "library",
+      "name": "filetype",
+      "version": "~=1.2.0",
+      "purl": "pkg:pypi/filetype@1.2.0",
+      "bom-ref": "pypi/filetype@~=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "GitPython",
+      "version": "~=3.1.45",
+      "purl": "pkg:pypi/gitpython@3.1.45",
+      "bom-ref": "pypi/GitPython@~=3.1.45"
+    },
+    {
+      "type": "library",
+      "name": "Jinja2",
+      "version": "~=3.1.6",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "bom-ref": "pypi/Jinja2@~=3.1.6"
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": "~=12.3.0",
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "bom-ref": "pypi/Pillow@~=12.3.0"
+    },
+    {
+      "type": "library",
+      "name": "PyJWT",
+      "version": "~=2.15.0",
+      "purl": "pkg:pypi/pyjwt@2.15.0",
+      "bom-ref": "pypi/PyJWT@~=2.15.0"
+    },
+    {
+      "type": "library",
+      "name": "duckdb",
+      "version": "~=1.4.3",
+      "purl": "pkg:pypi/duckdb@1.4.3",
+      "bom-ref": "pypi/duckdb@~=1.4.3"
+    },
+    {
+      "type": "library",
+      "name": "pyarrow",
+      "version": "~=25.0.0",
+      "purl": "pkg:pypi/pyarrow@25.0.0",
+      "bom-ref": "pypi/pyarrow@~=25.0.0"
+    },
+    {
+      "type": "library",
+      "name": "PyMySQL",
+      "version": "==1.1.2",
+      "purl": "pkg:pypi/pymysql@1.1.2",
+      "bom-ref": "pypi/PyMySQL@==1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "pypdf",
+      "version": "==6.16.1",
+      "purl": "pkg:pypi/pypdf@6.16.1",
+      "bom-ref": "pypi/pypdf@==6.16.1"
+    },
+    {
+      "type": "library",
+      "name": "PyPika",
+      "version": "@",
+      "purl": "pkg:pypi/pypika@@",
+      "bom-ref": "pypi/PyPika@@"
+    },
+    {
+      "type": "library",
+      "name": "mysqlclient",
+      "version": "==2.2.8",
+      "purl": "pkg:pypi/mysqlclient@2.2.8",
+      "bom-ref": "pypi/mysqlclient@==2.2.8"
+    },
+    {
+      "type": "library",
+      "name": "PyQRCode",
+      "version": "~=1.2.1",
+      "purl": "pkg:pypi/pyqrcode@1.2.1",
+      "bom-ref": "pypi/PyQRCode@~=1.2.1"
+    },
+    {
+      "type": "library",
+      "name": "PyYAML",
+      "version": "~=6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "bom-ref": "pypi/PyYAML@~=6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "RestrictedPython",
+      "version": "~=8.5",
+      "purl": "pkg:pypi/restrictedpython@8.5",
+      "bom-ref": "pypi/RestrictedPython@~=8.5"
+    },
+    {
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "==3.1.6",
+      "purl": "pkg:pypi/werkzeug@3.1.6",
+      "bom-ref": "pypi/Werkzeug@==3.1.6"
+    },
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "~=4.15.0",
+      "purl": "pkg:pypi/beautifulsoup4@4.15.0",
+      "bom-ref": "pypi/beautifulsoup4@~=4.15.0"
+    },
+    {
+      "type": "library",
+      "name": "bleach-allowlist",
+      "version": "~=1.0.3",
+      "purl": "pkg:pypi/bleach-allowlist@1.0.3",
+      "bom-ref": "pypi/bleach-allowlist@~=1.0.3"
+    },
+    {
+      "type": "library",
+      "name": "chardet",
+      "version": "~=7.4.3",
+      "purl": "pkg:pypi/chardet@7.4.3",
+      "bom-ref": "pypi/chardet@~=7.4.3"
+    },
+    {
+      "type": "library",
+      "name": "croniter",
+      "version": "~=6.2.2",
+      "purl": "pkg:pypi/croniter@6.2.2",
+      "bom-ref": "pypi/croniter@~=6.2.2"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "~=50.0.0",
+      "purl": "pkg:pypi/cryptography@50.0.0",
+      "bom-ref": "pypi/cryptography@~=50.0.0"
+    },
+    {
+      "type": "library",
+      "name": "cssutils",
+      "version": "~=2.15.0",
+      "purl": "pkg:pypi/cssutils@2.15.0",
+      "bom-ref": "pypi/cssutils@~=2.15.0"
+    },
+    {
+      "type": "library",
+      "name": "distro",
+      "version": "~=1.9.0",
+      "purl": "pkg:pypi/distro@1.9.0",
+      "bom-ref": "pypi/distro@~=1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "email-reply-parser",
+      "version": "~=0.5.12",
+      "purl": "pkg:pypi/email-reply-parser@0.5.12",
+      "bom-ref": "pypi/email-reply-parser@~=0.5.12"
+    },
+    {
+      "type": "library",
+      "name": "Faker",
+      "version": "~=40.23.0",
+      "purl": "pkg:pypi/faker@40.23.0",
+      "bom-ref": "pypi/Faker@~=40.23.0"
+    },
+    {
+      "type": "library",
+      "name": "gunicorn",
+      "version": "@",
+      "purl": "pkg:pypi/gunicorn@@",
+      "bom-ref": "pypi/gunicorn@@"
+    },
+    {
+      "type": "library",
+      "name": "html5lib",
+      "version": "~=1.1",
+      "purl": "pkg:pypi/html5lib@1.1",
+      "bom-ref": "pypi/html5lib@~=1.1"
+    },
+    {
+      "type": "library",
+      "name": "ipython",
+      "version": "~=9.14.0",
+      "purl": "pkg:pypi/ipython@9.14.0",
+      "bom-ref": "pypi/ipython@~=9.14.0"
+    },
+    {
+      "type": "library",
+      "name": "ldap3",
+      "version": "~=2.9.1",
+      "purl": "pkg:pypi/ldap3@2.9.1",
+      "bom-ref": "pypi/ldap3@~=2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "markdown2",
+      "version": "~=2.5.4",
+      "purl": "pkg:pypi/markdown2@2.5.4",
+      "bom-ref": "pypi/markdown2@~=2.5.4"
+    },
+    {
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "~=3.0.3",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "bom-ref": "pypi/MarkupSafe@~=3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "nh3",
+      "version": "~=0.3.2",
+      "purl": "pkg:pypi/nh3@0.3.2",
+      "bom-ref": "pypi/nh3@~=0.3.2"
+    },
+    {
+      "type": "library",
+      "name": "num2words",
+      "version": "~=0.5.14",
+      "purl": "pkg:pypi/num2words@0.5.14",
+      "bom-ref": "pypi/num2words@~=0.5.14"
+    },
+    {
+      "type": "library",
+      "name": "oauthlib",
+      "version": "~=4.0.0",
+      "purl": "pkg:pypi/oauthlib@4.0.0",
+      "bom-ref": "pypi/oauthlib@~=4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "openpyxl",
+      "version": "~=3.1.5",
+      "purl": "pkg:pypi/openpyxl@3.1.5",
+      "bom-ref": "pypi/openpyxl@~=3.1.5"
+    },
+    {
+      "type": "library",
+      "name": "xlsxwriter",
+      "version": "~=3.2.9",
+      "purl": "pkg:pypi/xlsxwriter@3.2.9",
+      "bom-ref": "pypi/xlsxwriter@~=3.2.9"
+    },
+    {
+      "type": "library",
+      "name": "orjson",
+      "version": "~=3.11.5",
+      "purl": "pkg:pypi/orjson@3.11.5",
+      "bom-ref": "pypi/orjson@~=3.11.5"
+    },
+    {
+      "type": "library",
+      "name": "passlib",
+      "version": "~=1.7.4",
+      "purl": "pkg:pypi/passlib@1.7.4",
+      "bom-ref": "pypi/passlib@~=1.7.4"
+    },
+    {
+      "type": "library",
+      "name": "pdfkit",
+      "version": "~=1.0.0",
+      "purl": "pkg:pypi/pdfkit@1.0.0",
+      "bom-ref": "pypi/pdfkit@~=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "phonenumbers",
+      "version": "~=9.0.23",
+      "purl": "pkg:pypi/phonenumbers@9.0.23",
+      "bom-ref": "pypi/phonenumbers@~=9.0.23"
+    },
+    {
+      "type": "library",
+      "name": "premailer",
+      "version": "~=3.10.0",
+      "purl": "pkg:pypi/premailer@3.10.0",
+      "bom-ref": "pypi/premailer@~=3.10.0"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": "~=7.2.2",
+      "purl": "pkg:pypi/psutil@7.2.2",
+      "bom-ref": "pypi/psutil@~=7.2.2"
+    },
+    {
+      "type": "library",
+      "name": "psycopg2-binary",
+      "version": "~=2.9.11",
+      "purl": "pkg:pypi/psycopg2-binary@2.9.11",
+      "bom-ref": "pypi/psycopg2-binary@~=2.9.11"
+    },
+    {
+      "type": "library",
+      "name": "pyOpenSSL",
+      "version": "~=26.4.0",
+      "purl": "pkg:pypi/pyopenssl@26.4.0",
+      "bom-ref": "pypi/pyOpenSSL@~=26.4.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "~=2.13.4",
+      "purl": "pkg:pypi/pydantic@2.13.4",
+      "bom-ref": "pypi/pydantic@~=2.13.4"
+    },
+    {
+      "type": "library",
+      "name": "pyotp",
+      "version": "~=2.9.0",
+      "purl": "pkg:pypi/pyotp@2.9.0",
+      "bom-ref": "pypi/pyotp@~=2.9.0"
+    },
+    {
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "~=2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "bom-ref": "pypi/python-dateutil@~=2.9.0.post0"
+    },
+    {
+      "type": "library",
+      "name": "pytz",
+      "version": "==2026.2",
+      "purl": "pkg:pypi/pytz@2026.2",
+      "bom-ref": "pypi/pytz@==2026.2"
+    },
+    {
+      "type": "library",
+      "name": "rauth",
+      "version": "~=0.7.3",
+      "purl": "pkg:pypi/rauth@0.7.3",
+      "bom-ref": "pypi/rauth@~=0.7.3"
+    },
+    {
+      "type": "library",
+      "name": "redis",
+      "version": "~=7.1.0",
+      "purl": "pkg:pypi/redis@7.1.0",
+      "bom-ref": "pypi/redis@~=7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "hiredis",
+      "version": "~=3.3.0",
+      "purl": "pkg:pypi/hiredis@3.3.0",
+      "bom-ref": "pypi/hiredis@~=3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "requests-oauthlib",
+      "version": "~=2.0.0",
+      "purl": "pkg:pypi/requests-oauthlib@2.0.0",
+      "bom-ref": "pypi/requests-oauthlib@~=2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "~=2.34.2",
+      "purl": "pkg:pypi/requests@2.34.2",
+      "bom-ref": "pypi/requests@~=2.34.2"
+    },
+    {
+      "type": "library",
+      "name": "rq",
+      "version": "==2.6.1",
+      "purl": "pkg:pypi/rq@2.6.1",
+      "bom-ref": "pypi/rq@==2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "rsa",
+      "version": "~=4.9.1",
+      "purl": "pkg:pypi/rsa@4.9.1",
+      "bom-ref": "pypi/rsa@~=4.9.1"
+    },
+    {
+      "type": "library",
+      "name": "semantic-version",
+      "version": "~=2.10.0",
+      "purl": "pkg:pypi/semantic-version@2.10.0",
+      "bom-ref": "pypi/semantic-version@~=2.10.0"
+    },
+    {
+      "type": "library",
+      "name": "sentry-sdk",
+      "version": "~=2.60.0",
+      "purl": "pkg:pypi/sentry-sdk@2.60.0",
+      "bom-ref": "pypi/sentry-sdk@~=2.60.0"
+    },
+    {
+      "type": "library",
+      "name": "sqlglot",
+      "version": "~=30.16.0",
+      "purl": "pkg:pypi/sqlglot@30.16.0",
+      "bom-ref": "pypi/sqlglot@~=30.16.0"
+    },
+    {
+      "type": "library",
+      "name": "sqlparse",
+      "version": "~=0.6.0",
+      "purl": "pkg:pypi/sqlparse@0.6.0",
+      "bom-ref": "pypi/sqlparse@~=0.6.0"
+    },
+    {
+      "type": "library",
+      "name": "sql_metadata",
+      "version": "~=3.0.1",
+      "purl": "pkg:pypi/sql-metadata@3.0.1",
+      "bom-ref": "pypi/sql_metadata@~=3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "tenacity",
+      "version": "~=9.1.2",
+      "purl": "pkg:pypi/tenacity@9.1.2",
+      "bom-ref": "pypi/tenacity@~=9.1.2"
+    },
+    {
+      "type": "library",
+      "name": "terminaltables",
+      "version": "~=3.1.10",
+      "purl": "pkg:pypi/terminaltables@3.1.10",
+      "bom-ref": "pypi/terminaltables@~=3.1.10"
+    },
+    {
+      "type": "library",
+      "name": "traceback-with-variables",
+      "version": "~=2.2.1",
+      "purl": "pkg:pypi/traceback-with-variables@2.2.1",
+      "bom-ref": "pypi/traceback-with-variables@~=2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "typst",
+      "version": "~=0.15.0",
+      "purl": "pkg:pypi/typst@0.15.0",
+      "bom-ref": "pypi/typst@~=0.15.0"
+    },
+    {
+      "type": "library",
+      "name": "typing_extensions",
+      "version": ">=4.15.0",
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "bom-ref": "pypi/typing_extensions@>=4.15.0"
+    },
+    {
+      "type": "library",
+      "name": "xlrd",
+      "version": "~=2.0.2",
+      "purl": "pkg:pypi/xlrd@2.0.2",
+      "bom-ref": "pypi/xlrd@~=2.0.2"
+    },
+    {
+      "type": "library",
+      "name": "zxcvbn",
+      "version": "~=4.5.0",
+      "purl": "pkg:pypi/zxcvbn@4.5.0",
+      "bom-ref": "pypi/zxcvbn@~=4.5.0"
+    },
+    {
+      "type": "library",
+      "name": "markdownify",
+      "version": "~=1.2.2",
+      "purl": "pkg:pypi/markdownify@1.2.2",
+      "bom-ref": "pypi/markdownify@~=1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "google-api-python-client",
+      "version": "~=2.197.0",
+      "purl": "pkg:pypi/google-api-python-client@2.197.0",
+      "bom-ref": "pypi/google-api-python-client@~=2.197.0"
+    },
+    {
+      "type": "library",
+      "name": "google-auth-oauthlib",
+      "version": "~=1.4.0",
+      "purl": "pkg:pypi/google-auth-oauthlib@1.4.0",
+      "bom-ref": "pypi/google-auth-oauthlib@~=1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "google-auth",
+      "version": "~=2.53.0",
+      "purl": "pkg:pypi/google-auth@2.53.0",
+      "bom-ref": "pypi/google-auth@~=2.53.0"
+    },
+    {
+      "type": "library",
+      "name": "vobject",
+      "version": "~=0.9.9",
+      "purl": "pkg:pypi/vobject@0.9.9",
+      "bom-ref": "pypi/vobject@~=0.9.9"
+    },
+    {
+      "type": "library",
+      "name": "pycountry",
+      "version": "~=26.2.16",
+      "purl": "pkg:pypi/pycountry@26.2.16",
+      "bom-ref": "pypi/pycountry@~=26.2.16"
+    },
+    {
+      "type": "library",
+      "name": "websockets",
+      "version": "~=15.0.1",
+      "purl": "pkg:pypi/websockets@15.0.1",
+      "bom-ref": "pypi/websockets@~=15.0.1"
+    },
+    {
+      "type": "library",
+      "name": "s",
+      "version": "socket.io-client",
+      "purl": "pkg:pypi/s@socket.io-client",
+      "bom-ref": "pypi/s@socket.io-client"
+    },
+    {
+      "type": "library",
+      "name": "dompurify",
+      "version": "^3.4.0",
+      "purl": "pkg:npm/dompurify@^3.4.0",
+      "bom-ref": "npm/dompurify@^3.4.0"
+    },
+    {
+      "type": "library",
+      "name": "leaflet",
+      "version": "^1.9.4",
+      "purl": "pkg:npm/leaflet@^1.9.4",
+      "bom-ref": "npm/leaflet@^1.9.4"
+    },
+    {
+      "type": "library",
+      "name": "leaflet-draw",
+      "version": "^1.0.4",
+      "purl": "pkg:npm/leaflet-draw@^1.0.4",
+      "bom-ref": "npm/leaflet-draw@^1.0.4"
+    },
+    {
+      "type": "library",
+      "name": "leaflet.locatecontrol",
+      "version": "^0.89.0",
+      "purl": "pkg:npm/leaflet.locatecontrol@^0.89.0",
+      "bom-ref": "npm/leaflet.locatecontrol@^0.89.0"
+    },
+    {
+      "type": "library",
+      "name": "marked",
+      "version": "^15.0.12",
+      "purl": "pkg:npm/marked@^15.0.12",
+      "bom-ref": "npm/marked@^15.0.12"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-css",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-css@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-css@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-html",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-html@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-html@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-javascript",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-javascript@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-javascript@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-json",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-json@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-json@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-markdown",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-markdown@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-markdown@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-python",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-python@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-python@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-sass",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-sass@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-sass@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-sql",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-sql@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-sql@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-xml",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-xml@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-xml@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-yaml",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lang-yaml@^6.0.0",
+      "bom-ref": "npm/@codemirror/lang-yaml@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lint",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/lint@^6.0.0",
+      "bom-ref": "npm/@codemirror/lint@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/state",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/state@^6.0.0",
+      "bom-ref": "npm/@codemirror/state@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/view",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@codemirror/view@^6.0.0",
+      "bom-ref": "npm/@codemirror/view@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-vue",
+      "version": ">=4",
+      "purl": "pkg:npm/@vitejs/plugin-vue@>=4",
+      "bom-ref": "npm/@vitejs/plugin-vue@>=4"
+    },
+    {
+      "type": "library",
+      "name": "autoprefixer",
+      "version": "^10.4.0",
+      "purl": "pkg:npm/autoprefixer@^10.4.0",
+      "bom-ref": "npm/autoprefixer@^10.4.0"
+    },
+    {
+      "type": "library",
+      "name": "frappe-ui",
+      "version": ">=1.0.0-rc.1",
+      "purl": "pkg:npm/frappe-ui@>=1.0.0-rc.1",
+      "bom-ref": "npm/frappe-ui@>=1.0.0-rc.1"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^3.4.0",
+      "purl": "pkg:npm/tailwindcss@^3.4.0",
+      "bom-ref": "npm/tailwindcss@^3.4.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": ">=5",
+      "purl": "pkg:npm/typescript@>=5",
+      "bom-ref": "npm/typescript@>=5"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": ">=4",
+      "purl": "pkg:npm/vite@>=4",
+      "bom-ref": "npm/vite@>=4"
+    },
+    {
+      "type": "library",
+      "name": "vue-router",
+      "version": "^4.1.5",
+      "purl": "pkg:npm/vue-router@^4.1.5",
+      "bom-ref": "npm/vue-router@^4.1.5"
+    },
+    {
+      "type": "library",
+      "name": "@framework/ui",
+      "version": "link:../../..",
+      "purl": "pkg:npm/@framework/ui@link:../../..",
+      "bom-ref": "npm/@framework/ui@link:../../.."
+    }
+  ]
+}
